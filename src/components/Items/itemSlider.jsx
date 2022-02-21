@@ -12,7 +12,7 @@ const Items = [
     {id: '4', name: 'chair', description: 'chair from ikea', price: 50, image: chair}
 ]
 
-const ItemSlider = ({onAddToCart}) => {
+const ItemSlider = () => {
     const classes = useStyles();
     return (
         <main className={classes.content}>
@@ -20,7 +20,7 @@ const ItemSlider = ({onAddToCart}) => {
             <Grid container justifyContent='center' spacing={4} >
                 {Items.map((item) => (
                     <Grid item key={item.id} xs={12} sm={6} md={4} lg={3}>
-                        <Item item={item} onAddToCart={onAddToCart}/>
+                        <Item item={item}/>
                     </Grid>
                 ))}
             </Grid>

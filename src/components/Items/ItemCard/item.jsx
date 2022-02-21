@@ -1,10 +1,9 @@
 import React from 'react';
-import {Card, CardMedia, CardContent, CardActions, Typography, IconButton} from "@material-ui/core";
+import {Card, CardMedia, CardContent, CardActions, Typography} from "@material-ui/core";
 
 import useStyles from './styles';
-import {AddShoppingCart} from "@material-ui/icons";
 
-const Item = ({ item, onAddToCart }) => {
+const Item = ({ item }) => {
     const classes = useStyles()
 
   return (
@@ -22,9 +21,7 @@ const Item = ({ item, onAddToCart }) => {
               <Typography variant={'body2'} color={'textSecondary'}>{item.description}</Typography>
       </CardContent>
       <CardActions disableSpacing className={classes.cardActions}>
-          <IconButton aria-label={'Add to Cart'} onClick={() => onAddToCart(item)}>
-              <AddShoppingCart/>
-          </IconButton>
+            //this is where add to favorites go
       </CardActions>
       </Card></>
   )
