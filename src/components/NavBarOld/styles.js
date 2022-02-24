@@ -27,31 +27,8 @@ export default makeStyles((theme) => ({
             display: 'none',
         },
     },
-    grow: {
+    menu: {
         flexGrow: 1,
-    },
-    search: {
-        position: 'relative',
-        borderRadius: theme.shape.borderRadius,
-        backgroundColor: alpha(theme.palette.common.white, 0.15),
-        '&:hover': {
-            backgroundColor: alpha(theme.palette.common.white, 0.25),
-        },
-        marginRight: theme.spacing(2),
-        marginLeft: 0,
-        width: '100%',
-        [theme.breakpoints.up('sm')]: {
-            width: 'auto',
-        },
-    },
-    searchIcon: {
-        padding: theme.spacing(0, 2),
-        height: '100%',
-        position: 'absolute',
-        pointerEvents: 'none',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
     },
     inputRoot: {
         color: 'inherit',
@@ -66,4 +43,5 @@ export default makeStyles((theme) => ({
             width: '20ch',
         },
     },
+
 }));

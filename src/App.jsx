@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
 import {ItemSlider, NavBar, RoomPictureGallery } from './components';
-//import {Browser as Router} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
 
 const App = () => {
 
     return (
-    <div>
+    <Router>
         <NavBar/>
         <RoomPictureGallery/>
         <ItemSlider/>
-    </div>
+    </Router>
   );
 }
 
