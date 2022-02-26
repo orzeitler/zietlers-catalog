@@ -9,12 +9,12 @@ const menuDropdown = ({isMenuOpen, toggleMenu}) => {
             </Icon>
             <MenuWrapper>
                 <Menu>
-                    <MenuLink to={'/'}>ציוד טיולים</MenuLink>
-                    <MenuLink to={'/'}>תינוק</MenuLink>
-                    <MenuLink to={'/'}>עציצים</MenuLink>
-                    <MenuLink to={'/'}>ילדים</MenuLink>
-                    <MenuLink to={'/'}>חדר שינה</MenuLink>
-                    <MenuLink to={'/'}>סלון</MenuLink>
+                    <MenuLink to={'/'} onClick={toggleMenu}>ציוד טיולים</MenuLink>
+                    <MenuLink to={'/'} onClick={toggleMenu}>תינוק</MenuLink>
+                    <MenuLink to={'/'} onClick={toggleMenu}>עציצים</MenuLink>
+                    <MenuLink to={'/'} onClick={toggleMenu}>ילדים</MenuLink>
+                    <MenuLink to={'/'} onClick={toggleMenu}>חדר שינה</MenuLink>
+                    <MenuLink to={'/'} onClick={toggleMenu}>סלון</MenuLink>
                  </Menu>
             </MenuWrapper>
         </MenuContainer>

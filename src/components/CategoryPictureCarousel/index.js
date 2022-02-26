@@ -17,7 +17,7 @@ const images = [
     }
 ]
 
-const RoomPictureGallery = () => {
+const CategoryPictureCarousel = () => {
 
     const classes = useStyles();
 
@@ -41,4 +41,4 @@ const RoomPictureGallery = () => {
     )
 }
 
-export default RoomPictureGallery;
+export default CategoryPictureCarousel;

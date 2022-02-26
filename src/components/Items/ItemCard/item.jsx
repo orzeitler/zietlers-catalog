@@ -50,7 +50,7 @@ const Item = ({ item }) => {
                         }}
                     >
                         <ErrorOutlineIcon/>
-                        זמין רק במאי
+                        זמין רק ביוני
                     </Box>}
                     <Typography variant={'h5'}>
                         {item.price}
@@ -58,9 +58,9 @@ const Item = ({ item }) => {
                 </div>
               <Typography variant={'body2'} color={'textSecondary'}>{item.description}</Typography>
       </CardContent>
-      <CardActions disableSpacing className={classes.cardActions}>
-            //this is where add to favorites go
-      </CardActions>
+      {/*<CardActions disableSpacing className={classes.cardActions}>*/}
+      {/*      //this is where add to favorites go*/}
+      {/*</CardActions>*/}
       </Card></>
   )
 }

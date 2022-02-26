@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
-import {ItemSlider, MenuDropdown, NavBar, RoomPictureGallery} from './components';
+import {ItemSlider, MenuDropdown, NavBar, CategoryPictureCarousel} from './components';
 import {BrowserRouter as Router} from 'react-router-dom'
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
     <Router>
         <MenuDropdown isMenuOpen={isMenuOpen} toggleMenu={toggleMenu}/>
         <NavBar toggleMenu={toggleMenu}/>
-        <RoomPictureGallery/>
+        <CategoryPictureCarousel/>
         <ItemSlider/>
     </Router>
   );

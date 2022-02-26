@@ -1,4 +1,4 @@
 export {default as NavBar} from './NavBar';
 export {default as MenuDropdown} from './MenuDropdown';
 export {default as ItemSlider} from './Items/itemSlider';
-export {default as RoomPictureGallery} from './RoomPictureGallery/RoomPictureGallery';
+export {default as CategoryPictureCarousel} from './CategoryPictureCarousel';
