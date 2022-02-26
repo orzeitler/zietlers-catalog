@@ -3,7 +3,7 @@ import {FaBars} from 'react-icons/fa'
 import {Nav, NavContainer, NavLogo, MobileIcon, NavItem, NavMenu, NavLinks} from "./NavbarElements";
 import logo from "../../images/homeLogo.png";
 
-const NavBar = () => {
+const NavBar = ({toggleMenu}) => {
     return (
         <>
             <Nav>
@@ -12,7 +12,7 @@ const NavBar = () => {
                         <img src={logo} className={'logo-image'} alt={'The Zeitlers Catalog'}/>
                         The Zeitlers Catalog
                     </NavLogo>
-                    <MobileIcon>
+                    <MobileIcon onClick={toggleMenu}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>

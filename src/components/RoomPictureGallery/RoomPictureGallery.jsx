@@ -22,6 +22,7 @@ const RoomPictureGallery = () => {
     const classes = useStyles();
 
     return (
+        <div>
         <Carousel>
             <div>
                 <img src={chair} />
@@ -36,6 +37,7 @@ const RoomPictureGallery = () => {
                 <p className="legend">Legend 3</p>
             </div>
         </Carousel>
+        </div>
     )
 }
 

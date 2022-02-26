@@ -6,10 +6,10 @@ import Item from "./ItemCard/item";
 import useStyles from './styles';
 
 const Items = [
-    {id: '1', name: 'table', description: 'nice table from ikea', price: 200, image: table},
-    {id: '2', name: 'chair', description: 'chair from ikea', price: 50, image: chair},
-    {id: '3', name: 'table', description: 'nice table from ikea', price: 200, image: table},
-    {id: '4', name: 'chair', description: 'chair from ikea', price: 50, image: chair}
+    {id: '1', name: 'table', description: 'nice table from ikea', price: 200, image: table, isSold: false, isAvailableInJune: false },
+    {id: '2', name: 'chair', description: 'chair from ikea', price: 50, image: chair, isSold: false, isAvailableInJune: true },
+    {id: '3', name: 'table', description: 'nice table from ikea', price: 200, image: table, isSold: false,},
+    {id: '4', name: 'chair', description: 'chair from ikea', price: 50, image: chair, isSold: true, isAvailableInJune: true}
 ]
 
 const ItemSlider = () => {
