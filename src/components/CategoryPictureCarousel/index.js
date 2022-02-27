@@ -4,7 +4,7 @@ import table from '../../images/table.jpeg'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
-import useStyles from './styles';
+import {CarouselImg, CategoryContainer, CategoryHeader, CategorySubHeader} from './CategoryPictureCarouselElements';
 
 const images = [
     {
@@ -19,25 +19,24 @@ const images = [
 
 const CategoryPictureCarousel = () => {
 
-    const classes = useStyles();
-
     return (
-        <div>
-        <Carousel>
+        <CategoryContainer>
+        <CategoryHeader> הסלון </CategoryHeader>
+        <CategorySubHeader> וגם כמה רהיטים אחרים מהבית </CategorySubHeader>
+            <Carousel>
             <div>
-                <img src={chair} />
-                <p className="legend">Legend 1</p>
+                <CarouselImg src={chair} />
+                <p className="legend">תיאור כלשהוא</p>
             </div>
             <div>
-                <img src={chair} />
-                <p className="legend">Legend 2</p>
+                <CarouselImg src={chair} />
+                <p className="legend">עוד אפשרות לטקסט</p>
             </div>
             <div>
-                <img src={chair} />
-                <p className="legend">Legend 3</p>
+                <CarouselImg src={chair} />
             </div>
         </Carousel>
-        </div>
+        </CategoryContainer>
     )
 }
 
