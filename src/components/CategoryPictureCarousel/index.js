@@ -1,21 +1,11 @@
 import React from "react";
-import chair from '../../images/chair.webp'
-import table from '../../images/table.jpeg'
+import livingRoom1 from '../../images/gray-living-room-01.jpeg'
+import livingRoom2 from '../../images/living-room-2.jpeg'
+import livingRoom3 from '../../images/living-room3.jpeg'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
-import {CarouselImg, CategoryContainer, CategoryHeader, CategorySubHeader} from './CategoryPictureCarouselElements';
-
-const images = [
-    {
-        name: "Random Name #1",
-        image: chair
-    },
-    {
-        name: "Random Name #2",
-        image: table
-    }
-]
+import {CategoryContainer, CategoryHeader, CategorySubHeader, CarouselImg} from './CategoryPictureCarouselElements';
 
 const CategoryPictureCarousel = () => {
 
@@ -23,18 +13,18 @@ const CategoryPictureCarousel = () => {
         <CategoryContainer>
         <CategoryHeader> הסלון </CategoryHeader>
         <CategorySubHeader> וגם כמה רהיטים אחרים מהבית </CategorySubHeader>
-            <Carousel>
-            <div>
-                <CarouselImg src={chair} />
+        <Carousel>
+            <CarouselImg>
+                <img src={livingRoom1}/>
                 <p className="legend">תיאור כלשהוא</p>
-            </div>
-            <div>
-                <CarouselImg src={chair} />
+            </CarouselImg>
+            <CarouselImg>
+                <img src={livingRoom2} />
                 <p className="legend">עוד אפשרות לטקסט</p>
-            </div>
-            <div>
-                <CarouselImg src={chair} />
-            </div>
+            </CarouselImg>
+            <CarouselImg>
+                <img src={livingRoom3} />
+            </CarouselImg>
         </Carousel>
         </CategoryContainer>
     )

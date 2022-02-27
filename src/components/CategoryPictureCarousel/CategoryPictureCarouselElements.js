@@ -16,8 +16,10 @@ export const CategorySubHeader = styled.div`
   direction: rtl;
 `;
 
-export const CarouselImg = styled.img`
-  max-height: 350px;
-  max-width: 350px;
+export const CarouselImg = styled.div` 
+  img {
+    max-height: 300px;
+    max-width: 400px;
+  }
 `
 
