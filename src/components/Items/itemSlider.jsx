@@ -15,7 +15,7 @@ const Items = [
 const ItemSlider = () => {
     const classes = useStyles();
     return (
-        <main className={classes.content}>
+        <div className={classes.content}>
             <Grid container justifyContent='center' spacing={4} >
                 {Items.map((item) => (
                     <Grid item key={item.id} xs={12} sm={6} md={4} lg={3}>
@@ -23,7 +23,7 @@ const ItemSlider = () => {
                     </Grid>
                 ))}
             </Grid>
-        </main>
+        </div>
     )
 }
 

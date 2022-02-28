@@ -18,7 +18,7 @@ const Item = ({ item }) => {
                     </Typography>
                     {item.isSold && <Box
                         sx={{
-                            paddingRight: '10px',
+                            paddingLeft: '10px',
                             backgroundColor: 'red',
                             borderRadius: '5px',
                             fontWeight: 'medium',
@@ -36,7 +36,7 @@ const Item = ({ item }) => {
                     </Box>}
                     {item.isAvailableInJune && <Box
                         sx={{
-                            paddingRight: '10px',
+                            paddingLeft: '10px',
                             backgroundColor: 'orange',
                             borderRadius: '5px',
                             fontWeight: 'medium',
@@ -53,10 +53,10 @@ const Item = ({ item }) => {
                         זמין רק ביוני
                     </Box>}
                     <Typography variant={'h5'}>
-                        {item.price}
+                        {item.price}₪
                     </Typography>
                 </div>
-              <Typography variant={'body2'} color={'textSecondary'}>{item.description}</Typography>
+              <Typography variant={'body2'} color={'textSecondary'} className={classes.text}>{item.description}</Typography>
       </CardContent>
       {/*<CardActions disableSpacing className={classes.cardActions}>*/}
       {/*      //this is where add to favorites go*/}

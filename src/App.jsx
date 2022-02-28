@@ -1,7 +1,11 @@
 import React, {useState} from 'react';
 import './App.css';
-import {ItemSlider, MenuDropdown, NavBar, CategoryPictureCarousel} from './components';
+import {MenuDropdown, NavBar, Category} from './components';
 import {BrowserRouter as Router} from 'react-router-dom'
+
+const CategoryArray = {
+
+}
 
 const App = () => {
 
@@ -15,8 +19,7 @@ const App = () => {
     <Router>
         <MenuDropdown isMenuOpen={isMenuOpen} toggleMenu={toggleMenu}/>
         <NavBar toggleMenu={toggleMenu}/>
-        <CategoryPictureCarousel/>
-        <ItemSlider/>
+        <Category/>
     </Router>
   );
 }

@@ -1,13 +1,14 @@
 import React from "react";
+import {ItemSlider} from "../index";
 import livingRoom1 from '../../images/gray-living-room-01.jpeg'
 import livingRoom2 from '../../images/living-room-2.jpeg'
 import livingRoom3 from '../../images/living-room3.jpeg'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
-import {CategoryContainer, CategoryHeader, CategorySubHeader, CarouselImg} from './CategoryPictureCarouselElements';
+import {CategoryContainer, CategoryHeader, CategorySubHeader, CarouselImg} from './Category';
 
-const CategoryPictureCarousel = () => {
+const Category = ({CategoryData}) => {
 
     return (
         <CategoryContainer>
@@ -26,8 +27,9 @@ const CategoryPictureCarousel = () => {
                 <img src={livingRoom3} />
             </CarouselImg>
         </Carousel>
+            <ItemSlider/>
         </CategoryContainer>
     )
 }
 
-export default CategoryPictureCarousel;
+export default Category;

@@ -16,5 +16,9 @@ export default makeStyles(() => ({
         display: 'flex',
         justifyContent: 'space-between',
         direction: 'rtl'
+    },
+    text: {
+        direction: 'rtl'
     }
+
 }));
