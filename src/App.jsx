@@ -16,7 +16,9 @@ const App = () => {
     <Router>
         <MenuDropdown isMenuOpen={isMenuOpen} toggleMenu={toggleMenu}/>
         <NavBar toggleMenu={toggleMenu}/>
-        <Category CategoryData={CategoryData[0]}/>
+        {CategoryData.map((category) =>
+            <Category CategoryData={category} key={category.categoryName}/>
+        )}
     </Router>
   );
 }

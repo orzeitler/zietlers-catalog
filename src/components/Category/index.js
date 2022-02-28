@@ -10,10 +10,10 @@ const Category = ({CategoryData}) => {
     return (
         <CategoryContainer>
             <CategoryHeader> {CategoryData.categoryName} </CategoryHeader>
-            <CategorySubHeader> {CategoryData.description} </CategorySubHeader>
+            <CategorySubHeader> {CategoryData.categoryDescription} </CategorySubHeader>
             <Carousel>
                 {CategoryData.roomPictures.map((pic) =>
-                    <CarouselImg key={CategoryData.name}>
+                    <CarouselImg key={pic.imageSrc}>
                         <img src={pic.imageSrc}/>
                         {pic.description && <p className="legend">{pic.description}</p>}
                     </CarouselImg>
