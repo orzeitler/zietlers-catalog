@@ -2,10 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 import {MenuDropdown, NavBar, Category} from './components';
 import {BrowserRouter as Router} from 'react-router-dom'
-
-const CategoryArray = {
-
-}
+import {CategoryData} from "./Data/CategoryData";
 
 const App = () => {
 
@@ -19,7 +16,7 @@ const App = () => {
     <Router>
         <MenuDropdown isMenuOpen={isMenuOpen} toggleMenu={toggleMenu}/>
         <NavBar toggleMenu={toggleMenu}/>
-        <Category/>
+        <Category CategoryData={CategoryData[0]}/>
     </Router>
   );
 }
