@@ -5,10 +5,10 @@ import { Carousel } from 'react-responsive-carousel';
 import {CategoryContainer, CategoryHeader, CategorySubHeader, CarouselImg} from './Category';
 import {ItemSlider} from "../index";
 
-const Category = ({CategoryData}) => {
+const Category = ({CategoryData, id}) => {
 
     return (
-        <CategoryContainer>
+        <CategoryContainer id={id}>
             <CategoryHeader> {CategoryData.categoryName} </CategoryHeader>
             <CategorySubHeader> {CategoryData.categoryDescription} </CategorySubHeader>
             <Carousel>

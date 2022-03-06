@@ -4,6 +4,7 @@ import {Nav, NavContainer, NavLogo, MobileIcon, NavItem, NavMenu, NavLinks} from
 import logo from "../../images/homeLogo.png";
 
 const NavBar = ({toggleMenu}) => {
+
     return (
         <>
             <Nav>
@@ -17,22 +18,47 @@ const NavBar = ({toggleMenu}) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to={'/'}>ציוד טיולים</NavLinks>
+                            <NavLinks
+                                to={'ציוד טיולים'}
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                offset={-80}
+                            >ציוד טיולים</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to={'/'}>תינוק</NavLinks>
+                            <NavLinks to={'תינוק'}                                 smooth={true}
+                                      duration={500}
+                                      spy={true}
+                                      offset={-80}>תינוק</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to={'/'}>עציצים</NavLinks>
+                            <NavLinks to={'עציצים'}
+                                      smooth={true}
+                                      duration={500}
+                                      spy={true}
+                                      offset={-80}>עציצים</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to={'/'}>ילדים</NavLinks>
+                            <NavLinks to={'ילדים'}
+                                      smooth={true}
+                                      duration={500}
+                                      spy={true}
+                                      offset={-80}>ילדים</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to={'/'}>חדר שינה</NavLinks>
+                            <NavLinks to={'חדר שינה'}
+                                      smooth={true}
+                                      duration={500}
+                                      spy={true}
+                                      offset={-80}>חדר שינה</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to={'/'}>סלון</NavLinks>
+                            <NavLinks to={'סלון'}
+                                      smooth={true}
+                                      duration={500}
+                                      spy={true}
+                                      offset={-80}>סלון</NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavContainer>

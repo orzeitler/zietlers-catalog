@@ -19,7 +19,7 @@ const App = () => {
         <NavBar toggleMenu={toggleMenu}/>
         <IntroSection/>
         {CategoryData.map((category) =>
-            <Category CategoryData={category} key={category.categoryName}/>
+            <Category CategoryData={category} key={category.categoryName} id={category.categoryName}/>
         )}
         <Footer/>
     </Router>
