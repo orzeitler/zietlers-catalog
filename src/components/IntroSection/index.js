@@ -11,7 +11,6 @@ const IntroSection = () => {
         setHover(!hover)
     }
 
-
     return (
         <IntroContainer>
             <IntroBg>
