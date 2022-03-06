@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/zietlers-catalog/static/css/main.6d75c23f.css",
+    "main.js": "/zietlers-catalog/static/js/main.ab2b8714.js",
+    "static/js/787.f11058fc.chunk.js": "/zietlers-catalog/static/js/787.f11058fc.chunk.js",
+    "static/media/videio.mp4": "/zietlers-catalog/static/media/videio.267316b9f32f9f5124be.mp4",
+    "static/media/living-room3.jpeg": "/zietlers-catalog/static/media/living-room3.995e69f9171d51f9afd5.jpeg",
+    "static/media/gray-living-room-01.jpeg": "/zietlers-catalog/static/media/gray-living-room-01.d1381fdfa6686088124f.jpeg",
+    "static/media/living-room-2.jpeg": "/zietlers-catalog/static/media/living-room-2.dbe237690e53279bb7a9.jpeg",
+    "static/media/homeLogo.png": "/zietlers-catalog/static/media/homeLogo.8a19089764253cb21cb9.png",
+    "static/media/chair.webp": "/zietlers-catalog/static/media/chair.f95bb527bfdf4dca8351.webp",
+    "index.html": "/zietlers-catalog/index.html",
+    "main.6d75c23f.css.map": "/zietlers-catalog/static/css/main.6d75c23f.css.map",
+    "main.ab2b8714.js.map": "/zietlers-catalog/static/js/main.ab2b8714.js.map",
+    "787.f11058fc.chunk.js.map": "/zietlers-catalog/static/js/787.f11058fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d75c23f.css",
+    "static/js/main.ab2b8714.js"
+  ]
+}
