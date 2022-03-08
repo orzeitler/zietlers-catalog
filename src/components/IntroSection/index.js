@@ -24,8 +24,14 @@ const IntroSection = () => {
                     כמו יד 2 אבל עם אנשים שאנחנו מכירים ועל כל מה שאנחנו מוכרים/מוסרים
                 </IntroP>
                 <IntroButton>
-                   <Button to={'category1'} onMouseEnter={onHover} onMouseLeave={onHover}>
-                       בוא נתחיל{hover ? <ArrowForward/> : <ArrowRight/>}
+                   <Button to={'סלון'}
+                           smooth={true}
+                           duration={500}
+                           spy={true}
+                           offset={-80}
+                           onMouseEnter={onHover}
+                           onMouseLeave={onHover}>
+                       בוא נתחיל    {hover ? <ArrowForward/> : <ArrowRight/>}
                    </Button>
                 </IntroButton>
             </IntroContent>

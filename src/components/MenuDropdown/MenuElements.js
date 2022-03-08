@@ -35,10 +35,11 @@ export const MenuWrapper = styled.div`
 `;
 
 export const Menu = styled.ul`
- display: grid;
+  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 80px);
   text-align: center;
+  padding: 0;
   
   @media screen and (max-width: 480px) {
     grid-template-rows: repeat(6, 60px);
