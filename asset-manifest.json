@@ -1,21 +1,33 @@
 {
   "files": {
     "main.css": "/zietlers-catalog/static/css/main.6d75c23f.css",
-    "main.js": "/zietlers-catalog/static/js/main.ab2b8714.js",
+    "main.js": "/zietlers-catalog/static/js/main.1c0aa45e.js",
     "static/js/787.f11058fc.chunk.js": "/zietlers-catalog/static/js/787.f11058fc.chunk.js",
     "static/media/videio.mp4": "/zietlers-catalog/static/media/videio.267316b9f32f9f5124be.mp4",
-    "static/media/living-room3.jpeg": "/zietlers-catalog/static/media/living-room3.995e69f9171d51f9afd5.jpeg",
-    "static/media/gray-living-room-01.jpeg": "/zietlers-catalog/static/media/gray-living-room-01.d1381fdfa6686088124f.jpeg",
-    "static/media/living-room-2.jpeg": "/zietlers-catalog/static/media/living-room-2.dbe237690e53279bb7a9.jpeg",
+    "static/media/living-room2.jpg": "/zietlers-catalog/static/media/living-room2.44d13bcfd4b2f6ce6a0e.jpg",
+    "static/media/living-room1.jpg": "/zietlers-catalog/static/media/living-room1.f5551d77dbc6d45c4a56.jpg",
+    "static/media/living-room3.jpg": "/zietlers-catalog/static/media/living-room3.6f8cd8202bf89deb7652.jpg",
+    "static/media/pic2.jpg": "/zietlers-catalog/static/media/pic2.907cb00e4a943553b5ae.jpg",
+    "static/media/pic3.jpg": "/zietlers-catalog/static/media/pic3.46fe6bf2e79174e69c2a.jpg",
+    "static/media/chair.jpg": "/zietlers-catalog/static/media/chair.f0d5f6d0c03f96d6b64a.jpg",
+    "static/media/plant2.jpg": "/zietlers-catalog/static/media/plant2.3a1c44412060669703aa.jpg",
+    "static/media/entrance-shelf.jpg": "/zietlers-catalog/static/media/entrance-shelf.2a4d56bc0e5df4046ac4.jpg",
+    "static/media/table.jpg": "/zietlers-catalog/static/media/table.8462d22aa6ffbc68add1.jpg",
+    "static/media/plant1.jpg": "/zietlers-catalog/static/media/plant1.d9e0debc12797dd18fbc.jpg",
+    "static/media/plant3.jpg": "/zietlers-catalog/static/media/plant3.7095c9741384345c1ba8.jpg",
+    "static/media/pic1.jpg": "/zietlers-catalog/static/media/pic1.55b9a7fc8a30266c405e.jpg",
+    "static/media/mirror.jpg": "/zietlers-catalog/static/media/mirror.78b5b2fb89a049915a57.jpg",
+    "static/media/rug.png": "/zietlers-catalog/static/media/rug.a3025e840a4da8a90c7e.png",
+    "static/media/sofa.png": "/zietlers-catalog/static/media/sofa.b38cd46a17b6aeb59fc0.png",
+    "static/media/curtain.png": "/zietlers-catalog/static/media/curtain.050d809eb06bbe425472.png",
     "static/media/homeLogo.png": "/zietlers-catalog/static/media/homeLogo.8a19089764253cb21cb9.png",
-    "static/media/chair.webp": "/zietlers-catalog/static/media/chair.f95bb527bfdf4dca8351.webp",
     "index.html": "/zietlers-catalog/index.html",
     "main.6d75c23f.css.map": "/zietlers-catalog/static/css/main.6d75c23f.css.map",
-    "main.ab2b8714.js.map": "/zietlers-catalog/static/js/main.ab2b8714.js.map",
+    "main.1c0aa45e.js.map": "/zietlers-catalog/static/js/main.1c0aa45e.js.map",
     "787.f11058fc.chunk.js.map": "/zietlers-catalog/static/js/787.f11058fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d75c23f.css",
-    "static/js/main.ab2b8714.js"
+    "static/js/main.1c0aa45e.js"
   ]
 }
