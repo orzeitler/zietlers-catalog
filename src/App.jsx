@@ -1,29 +1,21 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
-import {MenuDropdown, NavBar, Category, IntroSection} from './components';
-import {BrowserRouter as Router} from 'react-router-dom'
-import {CategoryData} from "./Data/CategoryData";
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Home from "./pages/index";
+import CheckOut from "./pages/checkOut";
 import Footer from "./components/Footer";
 
 const App = () => {
 
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-    const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen);
-    };
-
     return (
     <Router>
-        <MenuDropdown isMenuOpen={isMenuOpen} toggleMenu={toggleMenu}/>
-        <NavBar toggleMenu={toggleMenu}/>
-        <IntroSection/>
-        {CategoryData.map((category) =>
-            <Category CategoryData={category} key={category.categoryName} id={category.categoryName}/>
-        )}
+        <Routes>
+            <Route path={'/'} element={<Home/>} exact />
+            <Route path={'/checkOut'} element={<CheckOut/>} exact />
+        </Routes>
         <Footer/>
     </Router>
-  );
+);
 }
 
 export default App;

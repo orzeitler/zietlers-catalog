@@ -21,7 +21,7 @@ export const Nav = styled.nav`
 export const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 80px;s
+  height: 80px;
   z-index: 1;
   width: 100%;
   padding: 0 24px;
@@ -43,35 +43,6 @@ export const NavLogo = styled(Link)`
   }
 `;
 
-export const CartIcon = styled.div`
-    color: white;
-    font-size: 1.8rem;
-    cursor: pointer;
-    color: white;
-    z-index: 10;
-  
-  @media screen and (max-width: 768px) {
-    display: block;
-    position: absolute;
-    top: 20px;
-    right: 50px;  }
-`
-
-export const MobileIcon = styled.div`
-  display: none;
-  
-  @media screen and (max-width: 768px) {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
-    cursor: pointer;
-    color: white;
-  }
-`;
-
 export const NavMenu = styled.ul`
   display: flex;
   align-items: center;
@@ -86,20 +57,6 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
   height: 80px;
-`;
-
-export const NavLinks = styled(Link)`
-  color: #fff;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0 1rem;
-  height: 100%;
-  cursor: pointer;
-  
-  &:active {
-    border-bottom: 3px solid red;
-  }
 `;
 
 export const NavRouterLink = styled(LinkR)`

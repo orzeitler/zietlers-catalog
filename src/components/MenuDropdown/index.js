@@ -9,13 +9,13 @@ const menuDropdown = ({isMenuOpen, toggleMenu}) => {
             </Icon>
             <MenuWrapper>
                 <Menu>
-                    <MenuLink to={'ציוד טיולים'} smooth={true} duration={500} spy={true} offset={-80} onClick={toggleMenu}>ציוד טיולים</MenuLink>
-                    <MenuLink to={'תינוק'} smooth={true} duration={500} spy={true} offset={-80} onClick={toggleMenu}>תינוק</MenuLink>
-                    <MenuLink to={'עציצים'} smooth={true} duration={500} spy={true} offset={-80} onClick={toggleMenu}>עציצים</MenuLink>
-                    <MenuLink to={'ילדים'} smooth={true} duration={500} spy={true} offset={-80} onClick={toggleMenu}>ילדים</MenuLink>
-                    <MenuLink to={'חדר שינה'} smooth={true} duration={500} spy={true} offset={-80} onClick={toggleMenu}>חדר שינה</MenuLink>
                     <MenuLink to={'סלון'} smooth={true} duration={500} spy={true} offset={-80} onClick={toggleMenu}>סלון</MenuLink>
-                 </Menu>
+                    <MenuLink to={'חדר שינה'} smooth={true} duration={500} spy={true} offset={-80} onClick={toggleMenu}>חדר שינה</MenuLink>
+                    <MenuLink to={'ילדים'} smooth={true} duration={500} spy={true} offset={-80} onClick={toggleMenu}>ילדים</MenuLink>
+                    <MenuLink to={'עציצים'} smooth={true} duration={500} spy={true} offset={-80} onClick={toggleMenu}>עציצים</MenuLink>
+                    <MenuLink to={'תינוק'} smooth={true} duration={500} spy={true} offset={-80} onClick={toggleMenu}>תינוק</MenuLink>
+                    <MenuLink to={'ציוד טיולים'} smooth={true} duration={500} spy={true} offset={-80} onClick={toggleMenu}>ציוד טיולים</MenuLink>
+                </Menu>
             </MenuWrapper>
         </MenuContainer>
     );

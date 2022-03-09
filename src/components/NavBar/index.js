@@ -1,6 +1,7 @@
 import React from 'react';
 import {FaBars} from 'react-icons/fa'
-import {Nav, NavContainer, NavLogo, MobileIcon, NavItem, NavMenu, NavLinks} from "./NavbarElements";
+import {AiOutlineShoppingCart} from 'react-icons/ai'
+import {Nav, NavContainer, NavLogo, MobileIcon, NavItem, NavMenu, NavLinks, NavRouterLink, CartIcon} from "./NavbarElements";
 import logo from "../../images/homeLogo.png";
 
 const NavBar = ({toggleMenu}) => {
@@ -27,7 +28,8 @@ const NavBar = ({toggleMenu}) => {
                             >ציוד טיולים</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to={'תינוק'}                                 smooth={true}
+                            <NavLinks to={'תינוק'}
+                                      smooth={true}
                                       duration={500}
                                       spy={true}
                                       offset={-80}>תינוק</NavLinks>
@@ -62,6 +64,11 @@ const NavBar = ({toggleMenu}) => {
                         </NavItem>
                     </NavMenu>
                 </NavContainer>
+                <CartIcon>
+                    <NavRouterLink to='/checkOut'>
+                        <AiOutlineShoppingCart />
+                    </NavRouterLink>
+                </CartIcon>
             </Nav>
         </>
     );
