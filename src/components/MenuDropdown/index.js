@@ -3,7 +3,7 @@ import {MenuContainer, Icon, CloseIcon, MenuLink, MenuWrapper, Menu } from './Me
 
 const menuDropdown = ({isMenuOpen, toggleMenu}) => {
     return (
-        <MenuContainer onClick={toggleMenu} isOpen={isMenuOpen}>
+        <MenuContainer onClick={toggleMenu} isOpen={isMenuOpen} >
             <Icon>
                 <CloseIcon />
             </Icon>

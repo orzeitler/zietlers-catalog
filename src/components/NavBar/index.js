@@ -7,7 +7,6 @@ import logo from "../../images/homeLogo.png";
 const NavBar = ({toggleMenu}) => {
 
     return (
-        <>
             <Nav>
                 <NavContainer>
                     <NavLogo to={'/'}>
@@ -70,7 +69,6 @@ const NavBar = ({toggleMenu}) => {
                     </NavRouterLink>
                 </CartIcon>
             </Nav>
-        </>
     );
 };
 

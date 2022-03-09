@@ -24,7 +24,6 @@ export const NavContainer = styled.div`
   height: 80px;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
 `;
 
 export const NavLogo = styled(Link)`
@@ -48,15 +47,17 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: 150px;
+  margin-right: 50px;
   
   @media screen and (max-width: 768px) {
-    display: none;
+    margin-right: 10px;
   }
 `;
 
 export const NavItem = styled.li`
-  height: 80px;
+  height: 40px;
+  border-radius: 20px;
+  border: 4px solid white;
 `;
 
 export const NavRouterLink = styled(LinkR)`

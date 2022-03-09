@@ -4,7 +4,7 @@ import {FaTimes} from 'react-icons/fa'
 
 export const MenuContainer = styled.aside`
   position: fixed;
-  z-index: 90;
+  z-index: 999;
   width: 100%;
   height: 100%;
   background: #0f0f0f;
@@ -14,8 +14,7 @@ export const MenuContainer = styled.aside`
   left: 0;
   transition: 0.3s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
-  top ${({ isOpen }) => (isOpen ? '0' : '-100%')};
-  
+  top ${({ isOpen }) => (isOpen ? '0' : '-200%')};
 `;
 
 export const CloseIcon = styled(FaTimes)`
