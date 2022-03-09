@@ -1,12 +1,11 @@
 import React from 'react';
-import {ItemSlider, CheckOutHeader} from "../components";
-import {CategoryData} from "../Data/CategoryData";
+import {FavoriteSection, CheckOutHeader} from "../components";
 
 const CheckOut = () => {
     return (
         <>
         <CheckOutHeader/>
-        {/*<ItemSlider Items={CategoryData.items} />*/}
+        <FavoriteSection/>
         </>
     );
 };
