@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 import {CategoryContainer, CategoryHeader, CategorySubHeader, CarouselImg} from './Category';
 import {ItemSlider} from "../index";
 
-const Category = ({CategoryData, id}) => {
+const Category = ({CategoryData, id, selectedItems}) => {
 
     return (
         <CategoryContainer id={id}>
@@ -19,7 +19,7 @@ const Category = ({CategoryData, id}) => {
                     </CarouselImg>
                 )}
             </Carousel>
-            <ItemSlider Items={CategoryData.items} />
+            <ItemSlider Items={CategoryData.items} selectedItems={selectedItems}/>
         </CategoryContainer>
     )
 }

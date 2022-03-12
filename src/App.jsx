@@ -5,13 +5,15 @@ import Home from "./pages/index";
 import CheckOut from "./pages/checkOut";
 import Footer from "./components/Footer";
 
+let selectedItems = [];
+
 const App = () => {
 
     return (
     <Router>
         <Routes>
-            <Route path={'/'} element={<Home/>} exact />
-            <Route path={'/checkOut'} element={<CheckOut/>} exact />
+            <Route path={'/'} element={<Home selectedItems={selectedItems}/>} exact />
+            <Route path={'/checkOut'} element={<CheckOut selectedItems={selectedItems}/>} exact />
         </Routes>
         <Footer/>
     </Router>

@@ -6,12 +6,18 @@ import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
 import useStyles from './styles';
 import {Favorite, FavoriteBorderOutlined} from "@material-ui/icons";
 
-const Item = ({ item }) => {
+const Item = ({ item, selectedItems }) => {
     const classes = useStyles();
 
     const [isSelected, setIsSelected] = useState(false);
 
     const onSelected = () => {
+        if(!isSelected) {
+            selectedItems.push(item);
+        } else {
+            let itemIndex = selectedItems.findIndex(i => i.id === item.id);
+            selectedItems.splice(itemIndex, 1);
+        }
         setIsSelected(!isSelected);
     };
 

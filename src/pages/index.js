@@ -3,7 +3,7 @@ import {CategoryData} from "../Data/CategoryData";
 import {Category, IntroSection, MenuDropdown, NavBar} from "../components";
 import Footer from "../components/Footer";
 
-const Home = () => {
+const Home = ({selectedItems}) => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -17,7 +17,7 @@ const Home = () => {
        <NavBar toggleMenu={toggleMenu}/>
        <IntroSection/>
        {CategoryData.map((category) =>
-        <Category CategoryData={category} key={category.categoryName} id={category.categoryName}/>
+        <Category CategoryData={category} key={category.categoryName} id={category.categoryName} selectedItems={selectedItems}/>
         )}
     </>
   )
