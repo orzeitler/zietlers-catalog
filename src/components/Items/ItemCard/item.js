@@ -1,12 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Box from '@mui/system/Box/Box';
 import {Card, CardMedia, CardContent, CardActions, Typography} from "@material-ui/core";
 import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
 
 import useStyles from './styles';
+import {Favorite, FavoriteBorderOutlined} from "@material-ui/icons";
 
 const Item = ({ item }) => {
-    const classes = useStyles()
+    const classes = useStyles();
+
+    const [isSelected, setIsSelected] = useState(false);
+
+    const onSelected = () => {
+        setIsSelected(!isSelected);
+    };
 
   return (
       <><Card className={classes.root}>
@@ -58,9 +65,9 @@ const Item = ({ item }) => {
                 </div>
               <Typography variant={'body2'} color={'textSecondary'} className={classes.text}>{item.description}</Typography>
       </CardContent>
-      {/*<CardActions disableSpacing className={classes.cardActions}>*/}
-      {/*      //this is where add to favorites go*/}
-      {/*</CardActions>*/}
+      <CardActions disableSpacing className={classes.cardActions}>
+          {isSelected ?  <Favorite onClick={onSelected}/> : <FavoriteBorderOutlined onClick={onSelected}/> }
+      </CardActions>
       </Card></>
   )
 }

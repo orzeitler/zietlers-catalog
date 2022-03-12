@@ -10,7 +10,8 @@ export const FavoriteSectionContainer = styled.div`
 `
 
 export const ActionSection = styled.div`
-  
+    height: 200px;
+    background: lightgreen;
     display: grid;
     grid-template-columns: auto auto;
 `
