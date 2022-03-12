@@ -23,6 +23,7 @@ const Item = ({ item, selectedItems }) => {
         } else {
             let itemIndex = selectedItems.findIndex(i => i.id === item.id);
             selectedItems.splice(itemIndex, 1);
+            item.isSelected = false;
         }
         setIsSelected(!isSelected);
     };
