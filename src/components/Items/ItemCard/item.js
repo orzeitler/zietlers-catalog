@@ -7,13 +7,19 @@ import useStyles from './styles';
 import {Favorite, FavoriteBorderOutlined} from "@material-ui/icons";
 
 const Item = ({ item, selectedItems }) => {
+
+    if(!item.isSelected) {
+        item.isSelected = false;
+    }
+
     const classes = useStyles();
 
-    const [isSelected, setIsSelected] = useState(false);
+    const [isSelected, setIsSelected] = useState(item.isSelected);
 
     const onSelected = () => {
         if(!isSelected) {
             selectedItems.push(item);
+            item.isSelected = true;
         } else {
             let itemIndex = selectedItems.findIndex(i => i.id === item.id);
             selectedItems.splice(itemIndex, 1);

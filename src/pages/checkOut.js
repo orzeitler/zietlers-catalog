@@ -1,11 +1,11 @@
 import React from 'react';
 import {FavoriteSection, CheckOutHeader} from "../components";
 
-const CheckOut = () => {
+const CheckOut = ({selectedItems}) => {
     return (
         <>
         <CheckOutHeader/>
-        <FavoriteSection/>
+        <FavoriteSection selectedItems={selectedItems}/>
         </>
     );
 };
