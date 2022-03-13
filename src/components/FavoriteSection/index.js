@@ -13,9 +13,9 @@ const FavoriteSection = ({selectedItems}) => {
 
     const getSelectedItems = () => {
         if(selectedItems.length > 0) {
-            let resultString = ' היי! ראיתי את הקטלוג המגניב והתעניינתי בפריטים הבאים:' + '\n';
+            let resultString = ' היי! ראיתי את הקטלוג המגניב והתעניינתי בפריטים הבאים: ';
             selectedItems.map(item => {
-                resultString = resultString.concat(item.name + ',\n')
+                resultString = resultString.concat(item.name + ', ')
             } )
             return addSpacesToUrl(resultString)
         } else {
@@ -27,8 +27,8 @@ const FavoriteSection = ({selectedItems}) => {
      <FavoriteSectionContainer>
          {(selectedItems.length > 0) ? <><ItemSlider Items={selectedItems} selectedItems={selectedItems}/>
          <ActionSection>
-             <Typography>some nice text to explain what next</Typography>
-             <a href={`https://api.whatsapp.com/send?phone=972525877694&text=${getSelectedItems()}`} target="_blank"><WhatsApp/>click here</a>
+             <Typography>לחיצה על האיקון למטה תשלח לנו הודעה עם הפריטים שבהם התעניינת</Typography>
+             <a href={`https://api.whatsapp.com/send?phone=972542323392&text=${getSelectedItems()}`} target="_blank"><WhatsApp/>click here</a>
          </ActionSection></> : <EmptyState>לא בחרת שום פריט - תחזור לקטלוג ובחר פריטים על ידי לחיצה על הלב הקטן או צור קשר בוואטס אף על ידי לחיצה על הכפתור למטה</EmptyState>}
      </FavoriteSectionContainer>
     )
