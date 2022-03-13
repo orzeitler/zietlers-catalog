@@ -15,3 +15,8 @@ export const ActionSection = styled.div`
     display: grid;
     grid-template-columns: auto auto;
 `
+
+export const EmptyState = styled.div`
+    height: 450px;
+    background: lightgray;
+`
