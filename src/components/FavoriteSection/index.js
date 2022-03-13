@@ -13,13 +13,13 @@ const FavoriteSection = ({selectedItems}) => {
 
     const getSelectedItems = () => {
         if(selectedItems.length > 0) {
-            let resultString = 'hey Orr, saw your catalog and was interested in the following items: \n';
+            let resultString = 'היי! ראיתי את הקטלוג המגניב והתעניינתי בפריטים הבאים: \n';
             selectedItems.map(item => {
-                resultString.concat(item.name + ',\n')
+                resultString = resultString.concat(item.name + ',\n')
             } )
             return addSpacesToUrl(resultString)
         } else {
-            return addSpacesToUrl('hey saw you catalog and it looks great!');
+            return addSpacesToUrl('היי! ראיתי את הקטלוג המגניב שלכם!');
         }
     }
 
