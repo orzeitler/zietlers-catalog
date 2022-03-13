@@ -11,14 +11,14 @@ const Category = ({CategoryData, id, selectedItems}) => {
         <CategoryContainer id={id}>
             <CategoryHeader> {CategoryData.categoryName} </CategoryHeader>
             <CategorySubHeader> {CategoryData.categoryDescription} </CategorySubHeader>
-            <Carousel>
+            {CategoryData.roomPictures.length > 0 && <Carousel>
                 {CategoryData.roomPictures.map((pic) =>
                     <CarouselImg key={pic.imageSrc}>
                         <img src={pic.imageSrc}/>
                         {pic.description && <p className="legend">{pic.description}</p>}
                     </CarouselImg>
                 )}
-            </Carousel>
+            </Carousel>}
             <ItemSlider Items={CategoryData.items} selectedItems={selectedItems}/>
         </CategoryContainer>
     )
