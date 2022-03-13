@@ -51,6 +51,18 @@ import magnetBoard from "../images/office/magnet_board.jpg";
 import printer from "../images/office/printer.jpg";
 import deco from "../images/office/deco.jpg";
 
+import tent from "../images/outDoors/tent.jpg";
+import potsPans from "../images/outDoors/pots_pans.jpg";
+import picnic from "../images/outDoors/picnic.jpg";
+import bicks from "../images/outDoors/bicks.jpg";
+import authentic from "../images/outDoors/aothentic.jpg";
+
+import matress from "../images/more/matress.jpg"
+import dresser from "../images/more/dresser.jpg"
+import largeShelves from "../images/more/large_shelves.jpg"
+import livingRoomTable from "../images/more/living_room_table.jpg"
+import whiteChair from "../images/more/white_chair.jpg"
+import foldTable from "../images/more/fold_table.jpg"
 
 export const CategoryData = [
     {
@@ -99,7 +111,7 @@ export const CategoryData = [
         items: [
             {id: '16', name: 'לול', description: 'לול מתקפל', price: 200, image: babyCrib1, isSold: false, isAvailableInJune: false },
             {id: '17', name: 'משטח פעילות', description: 'משטח פעילות פאזל', price: 200, image: activityMatres, isSold: false, isAvailableInJune: false },
-            {id: '18', name: 'כדור פילאטיס', description: 'חובה לכל מוציא גראפסים מקצועי', price: 100, image: pilatesBall, isSold: false, isAvailableInJune: false },
+            {id: '18', name: 'כדור פילאטיס', description: 'חובה לכל מוציא גראפסים מקצועי', price: 90, image: pilatesBall, isSold: false, isAvailableInJune: false },
             {id: '19', name: 'כסא אוכל', description: 'כסא מאיקיאה', price: 70, image: babyFoodChair, isSold: false, isAvailableInJune: true },
             {id: '20', name: 'כסאות בטיחות לאוטו', description: 'כסאות עם בין שנה ל4 שנים תקינות', price: 50, image: carChairs, isSold: false, isAvailableInJune: false },
             {id: '21', name: 'מיטת תינוק', description: 'מיטה עםן מזרון ונחשוש', price: 200, image: babyBed, isSold: false, isAvailableInJune: true },
@@ -136,10 +148,35 @@ export const CategoryData = [
         ],
         items: [
             {id: '33', name: 'כסא משרדי', description: 'כסא משרדי מאיקאה', price: 150, image: officeChair, isSold: false, isAvailableInJune: false },
-            {id: '34', name: 'לוח שעם', description: 'לוח שעם, האייל כלול' , price: 50, image: messageBoard, isSold: false, isAvailableInJune: true },
-            {id: '35', name: 'לוח מגנטי', description: 'לוח מגנטי לתמונות הודעות' , price: 50, image: magnetBoard, isSold: false, isAvailableInJune: true },
-            {id: '36', name: 'מדפסת', description: 'מדפסת hp דגם כלשהו - מגיע עם מחסנית דיו חדשה' , price: 100, image: printer, isSold: false, isAvailableInJune: true },
-            {id: '37', name: 'ממסר deco', description: '2 מכשירי mesh של חברת deco' , price: 100, image: deco, isSold: false, isAvailableInJune: true },
+            {id: '34', name: 'לוח שעם', description: 'לוח שעם, האייל כלול' , price: 50, image: messageBoard, isSold: false, isAvailableInJune: false },
+            {id: '35', name: 'לוח מגנטי', description: 'לוח מגנטי לתמונות הודעות' , price: 50, image: magnetBoard, isSold: false, isAvailableInJune: false },
+            {id: '36', name: 'מדפסת', description: 'מדפסת hp דגם כלשהו - מגיע עם מחסנית דיו חדשה' , price: 100, image: printer, isSold: false, isAvailableInJune: false },
+            {id: '37', name: 'ממסר deco', description: '2 מכשירי mesh של חברת deco' , price: 100, image: deco, isSold: false, isAvailableInJune: false },
+        ]
+    },
+    {
+        categoryName: 'ציוד טיולים',
+        categoryDescription: 'קאמפיניג עד אופניים',
+        roomPictures: [],
+        items: [
+            {id: '38', name: 'אוהל 6', description: 'אוהל נפתח פתיחה מהירה - מתאים ל6 אנשים', price: 200, image: tent, isSold: false, isAvailableInJune: false },
+            {id: '39', name: 'אופניים', description: '2 זוגות אופניים פשוטים המחיר הוא עבור זוג' , price: 100, image: bicks, isSold: false, isAvailableInJune: false },
+            {id: '40', name: 'צליית אוטיניטיק משפחתית', description: 'צלייה מדגם משפחתי - השתמשנו רק קיץ אחד במצב טוב' , price: 200, image: authentic, isSold: false, isAvailableInJune: false },
+            {id: '41', name: 'פויקה ומחבתות', description: 'פוקיה 4, שתי מחבתות למדורה, פויקה קטנטן. המחיר להכל ניתן לקנות חלק' , price: 250, image: potsPans, isSold: false, isAvailableInJune: false },
+            {id: '42', name: 'צידיניות', description: 'צמד צידיניות - הקטנה נכנסת בגדולה' , price: 100, image: picnic, isSold: false, isAvailableInJune: false },
+        ]
+    },
+    {
+        categoryName: 'דברים נוספים',
+        categoryDescription: 'עוד דברים מרחבי הבית',
+        roomPictures: [],
+        items: [
+            {id: '43', name: 'מזרון זוגי גדול', description: 'מזרון זוגי של עמינח - דגם xxx גודל xxx מזרון אורטפדי מעולה', price: 3000, image: matress, isSold: false, isAvailableInJune: true },
+            {id: '44', name: 'שידה', description: 'שידה גדולה מעץ מלא' , price: 500, image: dresser, isSold: false, isAvailableInJune: false },
+            {id: '45', name: 'כוננית פינתית', description: 'כוננית מדגם xxx של איקאה ניתנת להצבה בפינה וגם ישר' , price: 1000, image: largeShelves, isSold: false, isAvailableInJune: false },
+            {id: '46', name: 'שולחן סלון', description: 'שולחן סלון שלושה חלקים' , price: 300, image: livingRoomTable, isSold: false, isAvailableInJune: false },
+            {id: '47', name: 'כסא', description: '2 כסאות לבנים' , price: 100, image: whiteChair, isSold: false, isAvailableInJune: false },
+            {id: '48', name: 'שולחן אוכל מתקפל', description: 'שולחן איקאה עם כנפיים מתקפלות' , price: 250, image: foldTable, isSold: false, isAvailableInJune: false },
         ]
     }
 ]
