@@ -42,7 +42,7 @@ export const CategoryData = [
         ]
     },
     {
-        categoryName: 'חדר שינה',
+        categoryName: 'ציוד תינוקות',
         categoryDescription: 'ילדים הורים ועוד כמה רהיטים',
         roomPictures: [
             {imageSrc: livingRoom1, description: 'תיאור כלשהוא'},

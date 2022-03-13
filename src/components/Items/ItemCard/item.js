@@ -78,9 +78,9 @@ const Item = ({ item, selectedItems }) => {
                 </div>
               <Typography variant={'body2'} color={'textSecondary'} className={classes.text}>{item.description}</Typography>
       </CardContent>
-      <CardActions disableSpacing className={classes.cardActions}>
+          {!item.isSold && <CardActions disableSpacing className={classes.cardActions}>
           {isSelected ?  <Favorite onClick={onSelected}/> : <FavoriteBorderOutlined onClick={onSelected}/> }
-      </CardActions>
+          </CardActions>}
       </Card></>
   )
 }
