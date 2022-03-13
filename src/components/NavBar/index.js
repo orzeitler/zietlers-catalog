@@ -19,40 +19,47 @@ const NavBar = ({toggleMenu}) => {
                     <NavMenu>
                         <NavItem>
                             <NavLinks
-                                to={'ציוד טיולים'}
+                                to={'דברים נוספים'}
                                 smooth={true}
                                 duration={500}
                                 spy={true}
                                 offset={-80}
-                            >ציוד טיולים</NavLinks>
+                            >דברים נוספים</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to={'תינוק'}
+                            <NavLinks to={'ציוד טיולים'}
                                       smooth={true}
                                       duration={500}
                                       spy={true}
-                                      offset={-80}>תינוק</NavLinks>
+                                      offset={-80}>ציוד טיולים</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to={'עציצים'}
+                            <NavLinks to={'משרד ביתי'}
                                       smooth={true}
                                       duration={500}
                                       spy={true}
-                                      offset={-80}>עציצים</NavLinks>
+                                      offset={-80}>משרד ביתי</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to={'ילדים'}
+                            <NavLinks to={'חדר ילדים'}
                                       smooth={true}
                                       duration={500}
                                       spy={true}
-                                      offset={-80}>ילדים</NavLinks>
+                                      offset={-80}>חדר ילדים</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to={'חדר שינה'}
+                            <NavLinks to={'ציוד תינוקות'}
                                       smooth={true}
                                       duration={500}
                                       spy={true}
-                                      offset={-80}>חדר שינה</NavLinks>
+                                      offset={-80}>ציוד תינוקות</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to={'מטבח'}
+                                      smooth={true}
+                                      duration={500}
+                                      spy={true}
+                                      offset={-80}>מטבח</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to={'סלון'}
