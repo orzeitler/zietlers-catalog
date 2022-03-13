@@ -13,7 +13,7 @@ const FavoriteSection = ({selectedItems}) => {
 
     const getSelectedItems = () => {
         if(selectedItems.length > 0) {
-            let resultString = 'היי! ראיתי את הקטלוג המגניב והתעניינתי בפריטים הבאים: \n';
+            let resultString = ' היי! ראיתי את הקטלוג המגניב והתעניינתי בפריטים הבאים:' + '\n';
             selectedItems.map(item => {
                 resultString = resultString.concat(item.name + ',\n')
             } )
