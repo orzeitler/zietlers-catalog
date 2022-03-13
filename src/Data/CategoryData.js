@@ -14,6 +14,13 @@ import plant3 from "../images/living room /plant3.jpg";
 import rug from "../images/living room /rug.png";
 import sofa from "../images/living room /sofa.png";
 import table from "../images/living room /table.jpg";
+import kitchenFullRoom from "../images/kitchen/kitchen_full_room.jpg";
+import kitchenFullRoomR from "../images/kitchen/kitchen_glasses.jpg";
+import kitchenFullRoomL from "../images/kitchen/kitchen_oven.jpg";
+import oven from "../images/kitchen/oven_1.jpg";
+import knives from "../images/kitchen/knives.jpg";
+
+
 
 
 export const CategoryData = [
@@ -42,20 +49,21 @@ export const CategoryData = [
         ]
     },
     {
-        categoryName: 'ציוד תינוקות',
-        categoryDescription: 'ילדים הורים ועוד כמה רהיטים',
+        categoryName: 'מטבח',
+        categoryDescription: 'כלי מטבח, מכשירי חשמל ועוד..',
         roomPictures: [
-            {imageSrc: livingRoom1, description: 'תיאור כלשהוא'},
-            {imageSrc: livingRoom2, description: 'עוד אפשרות לטקסט'},
+            {imageSrc: kitchenFullRoom, description: ''},
+            {imageSrc: kitchenFullRoomR, description: ''},
+            {imageSrc: kitchenFullRoomL, description: ''},
         ],
         items: [
-            {id: '1', name: 'שולחן אוכל מתקפל', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: table, isSold: false, isAvailableInJune: false },
-            {id: '2', name: 'כיסא', description: 'כיסא מאיקיא מדגם kjzh בצבע לבן - ישנם שתיים כאלה' , price: 50, image: chair, isSold: false, isAvailableInJune: true },
+            {id: '14', name: 'תנור אפייה', description: 'תנור אפייה AEG דגם BPE255632W, בילט-אין ופירוליטי עם מסילות טלסקופיות + 3 תבניות אפייה ורשת צלייה. נרכש בנובמבר 2018', price: 1600, image: oven, isSold: false, isAvailableInJune: false },
+            {id: '15', name: 'סט סכיני שף', description: 'סט 6 סכיני שף מסדרת טום אביב של ARCOSTEEL + מעמד' , price: 380, image: knives, isSold: false, isAvailableInJune: false, link: 'https://www.ratdesign.co.il/%D7%A1%D7%98-%D7%A1%D7%9B%D7%99%D7%A0%D7%99-%D7%A9%D7%A3-7-%D7%97%D7%9C%D7%A7%D7%99%D7%9D-%D7%A1%D7%93%D7%A8%D7%AA-%D7%98%D7%95%D7%9D-%D7%90%D7%91%D7%99%D7%91-%D7%9E%D7%A2%D7%9E%D7%93-%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99-%D7%9E%D7%A2%D7%A5-%D7%9E%D7%91%D7%99%D7%AA-%D7%90%D7%A8%D7%A7%D7%95%D7%A1%D7%98%D7%99%D7%9C/p-910.htm' },
         ]
     },
     {
-        categoryName: 'ילדים',
-        categoryDescription: 'ילדים הורים ועוד כמה רהיטים',
+        categoryName: 'ציוד תינוקות',
+        categoryDescription: 'כמה שהם קטנים יש להם הכי הרבה דברים',
         roomPictures: [
             {imageSrc: livingRoom1, description: 'תיאור כלשהוא'},
             {imageSrc: livingRoom2, description: 'עוד אפשרות לטקסט'},
