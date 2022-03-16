@@ -74,19 +74,19 @@ export const CategoryData = [
             {imageSrc: livingRoom3},
         ],
         items: [
-            {id: '1', name: 'שולחן אוכל מתקפל', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: chair, isSold: false, isAvailableInJune: false },
-            {id: '2', name: 'כיסא', description: 'כיסא מאיקיא מדגם kjzh בצבע לבן - ישנם שתיים כאלה' , price: 50, image: curtain, isSold: false, isAvailableInJune: true },
+            {id: '1', name: '2 כורסאות', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: chair, isSold: false, isAvailableInJune: false },
+            {id: '2', name: 'וילונות ומוטות', description: 'כיסא מאיקיא מדגם kjzh בצבע לבן - ישנם שתיים כאלה' , price: 50, image: curtain, isSold: false, isAvailableInJune: true },
             {id: '3', name: 'שולחן אוכל מתקפל', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: entranceShelf, isSold: false},
-            {id: '4', name: 'כיסא', description: 'כיסא מאיקיא מדגם kjzh בצבע לבן - ישנם שתיים כאלה', price: 50, image: mirror, isSold: true, isAvailableInJune: true},
-            {id: '5', name: 'שולחן אוכל מתקפל', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: pic1, isSold: false, isAvailableInJune: false },
-            {id: '6', name: 'שולחן אוכל מתקפל', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: pic2, isSold: false, isAvailableInJune: false },
-            {id: '7', name: 'שולחן אוכל מתקפל', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: pic3, isSold: false, isAvailableInJune: false },
-            {id: '8', name: 'שולחן אוכל מתקפל', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: plant1, isSold: false, isAvailableInJune: false },
-            {id: '9', name: 'שולחן אוכל מתקפל', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: plant2, isSold: false, isAvailableInJune: false },
-            {id: '10', name: 'שולחן אוכל מתקפל', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: plant3, isSold: false, isAvailableInJune: false },
-            {id: '11', name: 'שולחן אוכל מתקפל', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: rug, isSold: false, isAvailableInJune: false },
-            {id: '12', name: 'שולחן אוכל מתקפל', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: sofa, isSold: false, isAvailableInJune: false },
-            {id: '13', name: 'שולחן אוכל מתקפל', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: table, isSold: false, isAvailableInJune: false }
+            {id: '4', name: 'מראה נפתחת', description: 'כיסא מאיקיא מדגם kjzh בצבע לבן - ישנם שתיים כאלה', price: 50, image: mirror, isSold: true, isAvailableInJune: false},
+            {id: '5', name: 'ציור באפלו', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: pic1, isSold: false, isAvailableInJune: false },
+            {id: '6', name: 'ציור נשר', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: pic2, isSold: false, isAvailableInJune: false },
+            {id: '7', name: 'ציור צבי', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: pic3, isSold: false, isAvailableInJune: false },
+            {id: '8', name: 'עציץ גדול ״סנסיווירה״', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: plant1, isSold: false, isAvailableInJune: false },
+            {id: '9', name: 'עציץ ״אוזן הפיל״', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 150, image: plant2, isSold: false, isAvailableInJune: false },
+            {id: '10', name: 'דקל גדול', description: 'דקל בריא בעציץ גדול', price: 250, image: plant3, isSold: false, isAvailableInJune: false },
+            {id: '11', name: 'שטיח', description: 'קצת ישן', price: 50, image: rug, isSold: false, isAvailableInJune: false },
+            {id: '12', name: 'סט ספות', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: sofa, isSold: false, isAvailableInJune: false },
+            {id: '13', name: 'שולחן סלון', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: table, isSold: false, isAvailableInJune: false }
         ]
     },
     {
