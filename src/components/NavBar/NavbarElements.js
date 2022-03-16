@@ -3,15 +3,16 @@ import { Link } from 'react-scroll';
 import { Link as LinkR } from 'react-router-dom';
 
 export const Nav = styled.nav`
-  background: #000;
+  direction: rtl;
+  background: #ffff;
   height: 80px;
   margin-top: -80px;
   display: flex;
   align-items: center;
-  font-size: 1rem;
   position: sticky;
   top: 0;
   z-index: 3;
+  font-family: 'Assistant';
   
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
@@ -20,7 +21,7 @@ export const Nav = styled.nav`
 
 export const NavContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   height: 80px;
   z-index: 1;
   width: 100%;
@@ -28,26 +29,22 @@ export const NavContainer = styled.div`
 `;
 
 export const NavLogo = styled(Link)`
-  color: #fff;
+  color: #000;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 37px;
+  font-weight: 800;
+  width: max-content;
+  white-space: pre;
   display: flex;
   align-items: center;
-  margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
-  
-  .logo-image {
-    margin-right: 10px;
-    height: 30px;
-  }
 `;
 
 export const CartIcon = styled.div`
-    color: white;
-    font-size: 1.8rem;
+    color: #000;
+    font-size: 13px;
     cursor: pointer;
-    color: white;
     z-index: 10;
   
   @media screen and (max-width: 768px) {
@@ -68,7 +65,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: white;
+    color: #000;
   }
 `;
 
@@ -77,7 +74,8 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: 150px;
+  direction: rtl;
+  margin-right: 20px;
   
   @media screen and (max-width: 768px) {
     display: none;
@@ -86,24 +84,22 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
   height: 80px;
+  white-space: pre;
 `;
 
 export const NavLinks = styled(Link)`
-  color: #fff;
+  color: #000;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-  
-  &:active {
-    border-bottom: 3px solid red;
-  }
 `;
 
 export const NavRouterLink = styled(LinkR)`
-  color: #fff;
+  color: #E87171;
+  text-decoration: none;
   display: flex;
   align-items: center;
   padding: 0 1rem;
@@ -111,4 +107,14 @@ export const NavRouterLink = styled(LinkR)`
   cursor: pointer;
 `;
 
+export const Seperator = styled.div`
+  color: #000;
+  margin: 0 10px;
+`
+export const ItemCounter = styled.div`
+  color: #000;
+  font-size: 13px;
+  white-space: pre;
+  margin-left: 5px;
+`
 

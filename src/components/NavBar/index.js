@@ -1,8 +1,7 @@
 import React from 'react';
 import {FaBars} from 'react-icons/fa'
-import {AiOutlineShoppingCart} from 'react-icons/ai'
-import {Nav, NavContainer, NavLogo, MobileIcon, NavItem, NavMenu, NavLinks, NavRouterLink, CartIcon} from "./NavbarElements";
-import logo from "../../images/homeLogo.png";
+import {Nav, NavContainer, NavLogo, MobileIcon, NavItem, NavMenu, NavLinks, NavRouterLink, CartIcon, Seperator, ItemCounter} from "./NavbarElements";
+import {Favorite} from "@material-ui/icons";
 
 const NavBar = ({toggleMenu}) => {
 
@@ -10,8 +9,7 @@ const NavBar = ({toggleMenu}) => {
             <Nav>
                 <NavContainer>
                     <NavLogo to={'/'}>
-                        <img src={logo} className={'logo-image'} alt={'The Zeitlers Catalog'}/>
-                        The Zeitlers Catalog
+                        מכירת חיסול ;
                     </NavLogo>
                     <MobileIcon onClick={toggleMenu}>
                         <FaBars />
@@ -19,41 +17,14 @@ const NavBar = ({toggleMenu}) => {
                     <NavMenu>
                         <NavItem>
                             <NavLinks
-                                to={'דברים נוספים'}
+                                to={'סלון'}
                                 smooth={true}
                                 duration={500}
                                 spy={true}
                                 offset={-80}
-                            >דברים נוספים</NavLinks>
+                            >סלון</NavLinks>
                         </NavItem>
-                        <NavItem>
-                            <NavLinks to={'ציוד טיולים'}
-                                      smooth={true}
-                                      duration={500}
-                                      spy={true}
-                                      offset={-80}>ציוד טיולים</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to={'משרד ביתי'}
-                                      smooth={true}
-                                      duration={500}
-                                      spy={true}
-                                      offset={-80}>משרד ביתי</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to={'חדר ילדים'}
-                                      smooth={true}
-                                      duration={500}
-                                      spy={true}
-                                      offset={-80}>חדר ילדים</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to={'ציוד תינוקות'}
-                                      smooth={true}
-                                      duration={500}
-                                      spy={true}
-                                      offset={-80}>ציוד תינוקות</NavLinks>
-                        </NavItem>
+                        <Seperator>/</Seperator>
                         <NavItem>
                             <NavLinks to={'מטבח'}
                                       smooth={true}
@@ -61,18 +32,52 @@ const NavBar = ({toggleMenu}) => {
                                       spy={true}
                                       offset={-80}>מטבח</NavLinks>
                         </NavItem>
+                        <Seperator>/</Seperator>
                         <NavItem>
-                            <NavLinks to={'סלון'}
+                            <NavLinks to={'משרד ביתי'}
                                       smooth={true}
                                       duration={500}
                                       spy={true}
-                                      offset={-80}>סלון</NavLinks>
+                                      offset={-80}>משרד ביתי</NavLinks>
+                        </NavItem>
+                        <Seperator>/</Seperator>
+                        <NavItem>
+                            <NavLinks to={'ציוד תינוקות'}
+                                      smooth={true}
+                                      duration={500}
+                                      spy={true}
+                                      offset={-80}>ציוד תינוקות</NavLinks>
+                        </NavItem>
+                        <Seperator>/</Seperator>
+                        <NavItem>
+                            <NavLinks to={'חדר ילדים'}
+                                      smooth={true}
+                                      duration={500}
+                                      spy={true}
+                                      offset={-80}>חדר ילדים</NavLinks>
+                        </NavItem>
+                        <Seperator>/</Seperator>
+                        <NavItem>
+                            <NavLinks to={'ציוד טיולים'}
+                                      smooth={true}
+                                      duration={500}
+                                      spy={true}
+                                      offset={-80}>ציוד טיולים</NavLinks>
+                        </NavItem>
+                        <Seperator>/</Seperator>
+                        <NavItem>
+                            <NavLinks to={'מלא דברים אחרים'}
+                                      smooth={true}
+                                      duration={500}
+                                      spy={true}
+                                      offset={-80}>מלא דברים אחרים</NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavContainer>
                 <CartIcon>
                     <NavRouterLink to='/checkOut'>
-                        <AiOutlineShoppingCart />
+                        <ItemCounter>פרטים שאהבתי</ItemCounter>
+                        <Favorite />
                     </NavRouterLink>
                 </CartIcon>
             </Nav>
