@@ -1,19 +1,29 @@
 import styled from 'styled-components'
 
 export const CategoryContainer = styled.div`
-  background: white;
+  background: #FCF8F3;
+  font-family: 'Assistant';
+  margin: 50px 0;
 `;
+
+export const Header = styled.div`
+  display: block;
+  text-align: center;
+  direction: rtl;
+
+`
 
 export const CategoryHeader = styled.div`
   padding: 5px 10px;
-  font-size: xxx-large;
-  direction: rtl;
+  font-size: 50px;
+  font-weight: 800;
 `;
 
 export const CategorySubHeader = styled.div`
   padding: 5px 10px;
-  font-size: large;
-  direction: rtl;
+  font-size: 13px;
+  font-weight: 400;
+  color: #7E7E7E;
 `;
 
 export const CarouselImg = styled.div` 
