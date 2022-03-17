@@ -9,7 +9,7 @@ const NavBar = ({toggleMenu}) => {
             <Nav>
                 <NavContainer>
                     <NavLogo to={'/'}>
-                        מכירת חיסול ;
+                        🏡 מכירת חיסול ;
                     </NavLogo>
                     <MobileIcon onClick={toggleMenu}>
                         <FaBars />
