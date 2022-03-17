@@ -11,7 +11,9 @@ export default makeStyles(() => ({
     },
     cardActions: {
         display: 'flex',
-        justifyContent: 'flex-end',
+        direction: 'rtl',
+        padding: '10px',
+        justifyContent: 'space-between'
     },
     cardContent: {
         display: 'flex',

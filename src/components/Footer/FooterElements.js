@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 export const FooterContainer = styled.footer`
-  background: black;
+  background: #F3F2F1;
 `
 
 export const FooterWrap = styled.div`
@@ -30,7 +30,7 @@ export const SocialMediaWrap = styled.div`
 `
 
 export const WebsiteRights = styled.small`
-  color: white;
+  color: black;
   font-size: 16px;
   margin-bottom: 16px;
 `
@@ -43,6 +43,6 @@ export const SocialIcons = styled.div`
 `
 
 export const SocialIconLink = styled.a`
-  color: white;
+  color: black;
   font-size: 24px;
 `

@@ -1,6 +1,6 @@
 import React from 'react';
 import {FaBars} from 'react-icons/fa'
-import {Nav, NavContainer, NavLogo, MobileIcon, NavItem, NavMenu, NavLinks, NavRouterLink, CartIcon, Seperator, ItemCounter} from "./NavbarElements";
+import {Nav, NavContainer, NavLogo, MobileIcon, NavItem, NavMenu, NavLinks, NavRouterLink, CartIcon, Seperator, ItemCounter, FavIconWrapper} from "./NavbarElements";
 import {Favorite} from "@material-ui/icons";
 
 const NavBar = ({toggleMenu}) => {

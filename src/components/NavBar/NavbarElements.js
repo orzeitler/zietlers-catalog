@@ -39,6 +39,10 @@ export const NavLogo = styled(Link)`
   align-items: center;
   font-weight: bold;
   text-decoration: none;
+
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+  }
 `;
 
 export const CartIcon = styled.div`
@@ -50,8 +54,8 @@ export const CartIcon = styled.div`
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
-    top: 20px;
-    right: 50px;  }
+    top: 30px;
+    left: 50px;  }
 `
 
 export const MobileIcon = styled.div`
@@ -60,8 +64,8 @@ export const MobileIcon = styled.div`
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 8px;
+    left: 50px;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
@@ -98,8 +102,8 @@ export const NavLinks = styled(Link)`
 `;
 
 export const NavRouterLink = styled(LinkR)`
-  color: #E87171;
   text-decoration: none;
+  color: #E87171;
   display: flex;
   align-items: center;
   padding: 0 1rem;
@@ -116,5 +120,9 @@ export const ItemCounter = styled.div`
   font-size: 13px;
   white-space: pre;
   margin-left: 5px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `
 

@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import Box from '@mui/system/Box/Box';
 import {Card, CardMedia, CardContent, CardActions, Typography} from "@material-ui/core";
-import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
 
 import useStyles from './styles';
 import {Favorite, FavoriteBorderOutlined} from "@material-ui/icons";
@@ -36,51 +35,52 @@ const Item = ({ item, selectedItems }) => {
                     <Typography variant={'h5'} gutterBottom>
                         {item.name}
                     </Typography>
-                    {item.isSold && <Box
-                        sx={{
-                            paddingLeft: '10px',
-                            backgroundColor: 'red',
-                            borderRadius: '5px',
-                            fontWeight: 'medium',
-                            display: 'flex',
-                            fontSize: 12,
-                            alignItems: 'center',
-                            '& svg': {
-                                fontSize: 21,
-                                mr: 0.5,
-                            },
-                        }}
-                    >
-                        <ErrorOutlineIcon/>
-                        נמכר
-                    </Box>}
-                    {item.isAvailableInJune && <Box
-                        sx={{
-                            paddingLeft: '10px',
-                            backgroundColor: 'orange',
-                            borderRadius: '5px',
-                            fontWeight: 'medium',
-                            display: 'flex',
-                            fontSize: 12,
-                            alignItems: 'center',
-                            '& svg': {
-                                fontSize: 21,
-                                mr: 0.5,
-                            },
-                        }}
-                    >
-                        <ErrorOutlineIcon/>
-                        זמין רק ביוני
-                    </Box>}
-                    <Typography variant={'h5'}>
-                        {item.price}₪
-                    </Typography>
                 </div>
               <Typography variant={'body2'} color={'textSecondary'} className={classes.text}>{item.description}</Typography>
       </CardContent>
-          {!item.isSold && <CardActions disableSpacing className={classes.cardActions}>
-          {isSelected ?  <Favorite onClick={onSelected}/> : <FavoriteBorderOutlined onClick={onSelected}/> }
-          </CardActions>}
+          <CardActions disableSpacing className={classes.cardActions}>
+              <Typography variant={'h5'}>
+                  {item.price}₪
+              </Typography>
+              {item.isSold && <Box
+                  sx={{
+                      paddingRight: '10px',
+                      backgroundColor: '#E87171',
+                      height: '26px',
+                      width: '71px',
+                      justifyContent: 'center',
+                      borderRadius: '53px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      color: 'white',
+                      fontFamily: 'Assistant',
+                      fontSize: '13px',
+                      fontWeight: '700'
+                  }}
+              >
+                  נמכר
+              </Box>}
+              {item.isAvailableInJune && <Box
+                  sx={{
+                      paddingLeft: '10px',
+                      backgroundColor: '#79CCFB',
+                      borderRadius: '53px',
+                      whiteSpace: 'pre',
+                      justifyContent: 'center',
+                      height: '26px',
+                      width: '87px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      color: 'white',
+                      fontFamily: 'Assistant',
+                      fontSize: '13px',
+                      fontWeight: '700'
+                  }}
+              >
+                  זמין רק ביוני
+              </Box>}
+          {!item.isSold && isSelected ?  <Favorite onClick={onSelected}/> : <FavoriteBorderOutlined onClick={onSelected}/> }
+          </CardActions>
       </Card></>
   )
 }
