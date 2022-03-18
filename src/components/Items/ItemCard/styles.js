@@ -27,6 +27,25 @@ export default makeStyles(() => ({
         direction: 'rtl',
         fontSize: '15px',
         cursor: 'pointer'
+    },
+    fullHeartIcon: {
+        color: 'pink',
+        cursor: 'pointer'
+    },
+    greyHeartIcon: {
+        color: 'gray',
+        cursor: 'pointer'
+
+    },
+    whatsapp: {
+        paddingLeft: '10px',
+        color: 'lightgreen',
+        cursor: 'pointer'
+    },
+    disabledWhatsapp: {
+        paddingLeft: '5px',
+        color: 'gray'
     }
+
 
 }));

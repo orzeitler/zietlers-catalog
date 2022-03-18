@@ -28,6 +28,11 @@ const Item = ({ item, selectedItems }) => {
         setIsSelected(!isSelected);
     };
 
+    const getSelectedItem = () => {
+            let resultString = ` ${item.name} היי! ראיתי את הקטלוג המגניב והתעניינתי ב`
+            return resultString.replace(/' '/g, "%20");
+    }
+
   return (
       <><Card className={classes.root}>
           <CardMedia className={classes.media} image={item.image} title={item.name}/>
@@ -81,8 +86,12 @@ const Item = ({ item, selectedItems }) => {
               >
                   זמין רק ביוני
               </Box>}
-          {!item.isSold && isSelected ?  <Favorite onClick={onSelected}/> : <FavoriteBorderOutlined onClick={onSelected}/> }
-          {!item.isSold ?  <RiWhatsappFill onClick={onSelected}/> : <WhatsApp/> }
+              <div>
+                  <a href={`https://api.whatsapp.com/send?phone=972542323392&text=${getSelectedItem()}`} target="_blank">
+                  {!item.isSold ?  <RiWhatsappFill className={classes.whatsapp} onClick={()=>{}} size={25}/> : <RiWhatsappFill className={classes.disabledWhatsapp} size={25}/> }
+                  </a>
+                    {!item.isSold && isSelected ?  <Favorite onClick={onSelected} className={classes.fullHeartIcon}/> : <Favorite onClick={onSelected} className={classes.greyHeartIcon}/> }
+              </div>
           </CardActions>
       </Card></>
   )
