@@ -29,7 +29,7 @@ const Item = ({ item, selectedItems }) => {
     };
 
     const getSelectedItem = () => {
-            let resultString = ` ${item.name} היי! ראיתי את הקטלוג המגניב והתעניינתי ב`
+            let resultString = ` היי! ראיתי את הקטלוג המגניב והתעניינתי ב-${item.name}`
             return resultString.replace(/' '/g, "%20");
     }
 

@@ -29,22 +29,22 @@ export default makeStyles(() => ({
         cursor: 'pointer'
     },
     fullHeartIcon: {
-        color: 'pink',
+        color: '#E87171',
         cursor: 'pointer'
     },
     greyHeartIcon: {
-        color: 'gray',
+        color: '#C4C4C4',
         cursor: 'pointer'
 
     },
     whatsapp: {
         paddingLeft: '10px',
-        color: 'lightgreen',
+        color: '#25D366',
         cursor: 'pointer'
     },
     disabledWhatsapp: {
         paddingLeft: '5px',
-        color: 'gray'
+        color: '#C4C4C4'
     }
 
 
