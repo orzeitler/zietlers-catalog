@@ -74,8 +74,8 @@ export const CategoryData = [
             {imageSrc: livingRoom3},
         ],
         items: [
-            {id: '1', name: '2 כורסאות', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: chair, isSold: false, isAvailableInJune: false },
-            {id: '2', name: 'וילונות ומוטות', description: 'כיסא מאיקיא מדגם kjzh בצבע לבן - ישנם שתיים כאלה' , price: 50, image: curtain, isSold: false, isAvailableInJune: true },
+            {id: '1', name: '2 כורסאות', description: 'כורסא לידו של kaza בגוון תכלת פסטל', price: 500, image: chair, isSold: false, isAvailableInJune: false },
+            {id: '2', name: 'וילונות ומוטות', description: 'וילונות עם מוטות ל3 חלונות' , price: 50, image: curtain, isSold: false, isAvailableInJune: true },
             {id: '3', name: 'שולחן אוכל מתקפל', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: entranceShelf, isSold: false},
             {id: '4', name: 'מראה נפתחת', description: 'כיסא מאיקיא מדגם kjzh בצבע לבן - ישנם שתיים כאלה', price: 50, image: mirror, isSold: true, isAvailableInJune: false},
             {id: '5', name: 'ציור באפלו', description: 'שולחן אוכל מאיקיאה, בלה בלה בלה', price: 200, image: pic1, isSold: false, isAvailableInJune: false },

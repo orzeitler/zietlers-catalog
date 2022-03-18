@@ -22,6 +22,11 @@ export default makeStyles(() => ({
     },
     text: {
         direction: 'rtl'
+    },
+    linkTo: {
+        direction: 'rtl',
+        fontSize: '15px',
+        cursor: 'pointer'
     }
 
 }));

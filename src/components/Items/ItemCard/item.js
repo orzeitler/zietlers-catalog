@@ -3,7 +3,8 @@ import Box from '@mui/system/Box/Box';
 import {Card, CardMedia, CardContent, CardActions, Typography} from "@material-ui/core";
 
 import useStyles from './styles';
-import {Favorite, FavoriteBorderOutlined} from "@material-ui/icons";
+import {Favorite, FavoriteBorderOutlined, WhatsApp} from "@material-ui/icons";
+import {RiWhatsappFill} from "react-icons/ri";
 
 const Item = ({ item, selectedItems }) => {
 
@@ -37,6 +38,7 @@ const Item = ({ item, selectedItems }) => {
                     </Typography>
                 </div>
               <Typography variant={'body2'} color={'textSecondary'} className={classes.text}>{item.description}</Typography>
+              {item.link && <a href={item.link}><Typography className={classes.linkTo}>כמו זה אבל חדש</Typography></a>}
       </CardContent>
           <CardActions disableSpacing className={classes.cardActions}>
               <Typography variant={'h5'}>
@@ -80,6 +82,7 @@ const Item = ({ item, selectedItems }) => {
                   זמין רק ביוני
               </Box>}
           {!item.isSold && isSelected ?  <Favorite onClick={onSelected}/> : <FavoriteBorderOutlined onClick={onSelected}/> }
+          {!item.isSold ?  <RiWhatsappFill onClick={onSelected}/> : <WhatsApp/> }
           </CardActions>
       </Card></>
   )

@@ -12,7 +12,7 @@ const IntroSection = () => {
     }
 
     return (
-        <IntroContainer>
+        <IntroContainer id={'intro'}>
             <IntroBg>
                 <VideoBg autoPlay loop muted src={Video} type={'video/mp4'}/>
             </IntroBg>

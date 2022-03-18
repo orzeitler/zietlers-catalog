@@ -8,7 +8,7 @@ const NavBar = ({toggleMenu}) => {
     return (
             <Nav>
                 <NavContainer>
-                    <NavLogo to={'/'}>
+                    <NavLogo to={'intro'} smooth={true} duration={500} spy={true} offset={-80}>
                         🏡 מכירת חיסול ;
                     </NavLogo>
                     <MobileIcon onClick={toggleMenu}>
