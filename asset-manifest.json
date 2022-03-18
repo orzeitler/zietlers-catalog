@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zietlers-catalog/static/css/main.6d75c23f.css",
-    "main.js": "/zietlers-catalog/static/js/main.a36d4daa.js",
+    "main.js": "/zietlers-catalog/static/js/main.eb89c440.js",
     "static/js/787.f11058fc.chunk.js": "/zietlers-catalog/static/js/787.f11058fc.chunk.js",
     "static/media/videio.mp4": "/zietlers-catalog/static/media/videio.267316b9f32f9f5124be.mp4",
     "static/media/kids_theme2.jpg": "/zietlers-catalog/static/media/kids_theme2.abd0df169e561485a55a.jpg",
@@ -64,14 +64,13 @@
     "static/media/sofa.png": "/zietlers-catalog/static/media/sofa.b38cd46a17b6aeb59fc0.png",
     "static/media/curtain.png": "/zietlers-catalog/static/media/curtain.050d809eb06bbe425472.png",
     "static/media/netta.jpeg": "/zietlers-catalog/static/media/netta.c4ab272036d067a0d56d.jpeg",
-    "static/media/homeLogo.png": "/zietlers-catalog/static/media/homeLogo.8a19089764253cb21cb9.png",
     "index.html": "/zietlers-catalog/index.html",
     "main.6d75c23f.css.map": "/zietlers-catalog/static/css/main.6d75c23f.css.map",
-    "main.a36d4daa.js.map": "/zietlers-catalog/static/js/main.a36d4daa.js.map",
+    "main.eb89c440.js.map": "/zietlers-catalog/static/js/main.eb89c440.js.map",
     "787.f11058fc.chunk.js.map": "/zietlers-catalog/static/js/787.f11058fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d75c23f.css",
-    "static/js/main.a36d4daa.js"
+    "static/js/main.eb89c440.js"
   ]
 }
