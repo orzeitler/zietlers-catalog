@@ -69,8 +69,8 @@ export const CategoryData = [
         categoryName: 'סלון',
         categoryDescription: 'כל הפריטים למכירה - כולל התמונות והווילנות',
         roomPictures: [
-            {imageSrc: livingRoom1, description: 'תיאור כלשהוא'},
-            {imageSrc: livingRoom2, description: 'עוד אפשרות לטקסט'},
+            {imageSrc: livingRoom1, description: 'דפדף בין תמונות הסלון - כל הפריטים למכירה'},
+            {imageSrc: livingRoom2},
             {imageSrc: livingRoom3},
         ],
         items: [
