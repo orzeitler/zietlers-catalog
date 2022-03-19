@@ -12,6 +12,7 @@ export const IntroContainer = styled.div`
   position: relative;
   z-index: 1;
   direction: rtl;
+  font-family: Assistant;
 `
 
 export const IntroBg = styled.div`

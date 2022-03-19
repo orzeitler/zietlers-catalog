@@ -22,18 +22,18 @@ export const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
   height: 80px;
+  white-space: pre;
   z-index: 1;
   width: 100%;
 `;
 
 export const NavLogo = styled.div`
-  padding-right: 20px;
+  padding-right: 10px;
   color: #000;
   cursor: pointer;
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
 `;
@@ -41,6 +41,7 @@ export const NavLogo = styled.div`
 export const NavMenu = styled.ul`
   display: flex;
   align-items: center;
+  padding-right: 20px;
   list-style: none;
   text-align: center;
   margin-left: 50px;
@@ -51,13 +52,15 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-  height: 40px;
-  border-radius: 20px;
-  border: 4px solid black;
+  height: 30px;
+  border-radius: 30px;
+  background: #61dafb;
+  border: 2px solid black;
 `;
 
 export const NavRouterLink = styled(LinkR)`
   color: #000;
+  text-decoration: none;
   display: flex;
   align-items: center;
   padding: 0 1rem;

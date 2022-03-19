@@ -12,7 +12,7 @@ const CheckOutHeader = () => {
                     </NavLogo>
                     <NavMenu>
                         <NavItem>
-                            <NavRouterLink to={'/'}>חזרה לקטלוג</NavRouterLink>
+                            <NavRouterLink to={'/'}>חזרה לקטלוג ⬅️ </NavRouterLink>
                         </NavItem>
                     </NavMenu>
                 </NavContainer>

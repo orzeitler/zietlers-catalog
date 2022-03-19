@@ -90,7 +90,7 @@ const Item = ({ item, selectedItems }) => {
                   <a href={`https://api.whatsapp.com/send?phone=972542323392&text=${getSelectedItem()}`} target="_blank">
                   {!item.isSold ?  <RiWhatsappFill className={classes.whatsapp} onClick={()=>{}} size={25}/> : <RiWhatsappFill className={classes.disabledWhatsapp} size={25}/> }
                   </a>
-                    {!item.isSold && isSelected ?  <Favorite onClick={onSelected} className={classes.fullHeartIcon}/> : <Favorite onClick={onSelected} className={classes.greyHeartIcon}/> }
+                    {!item.isSold && isSelected ?  <Favorite onClick={onSelected} className={classes.fullHeartIcon}/> : <Favorite onClick={!item.isSold ? onSelected : ()=>{}} className={classes.greyHeartIcon}/> }
               </div>
           </CardActions>
       </Card></>

@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {IntroBg, VideoBg, IntroContainer, IntroContent, IntroP, IntroH1, ArrowRight, ArrowForward, IntroButton, Button} from './IntroSectionElements'
 import Video from '../../images/videio.mp4'
+import {RiWhatsappFill} from "react-icons/ri";
 
 
 const IntroSection = () => {
@@ -17,11 +18,12 @@ const IntroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type={'video/mp4'}/>
             </IntroBg>
             <IntroContent>
-                <IntroH1> תכף נשוב - בעקבות המעבר שלנו בקיץ אנחנו מוכרים את כל מה שלא יבוא איתנו!</IntroH1>
+                <IntroH1> בעקבות המעבר שלנו בקיץ אנחנו מוכרים את כל מה שלא יבוא איתנו - ואתם מרוויחים!</IntroH1>
                 <IntroP>
-                    איך זה עובד - זה רק קטלוג של מה יש והמחיר,
-                    אתם מדפדפים רואים משהו שאתם רוצים ויוצרים איתנו קשר.
-                    כמו יד 2 אבל עם אנשים שאנחנו מכירים ועל כל מה שאנחנו מוכרים/מוסרים
+                    אז איך זה עובד? - זה רק קטלוג של מה יש.<br/>
+                     אתם מדפדפים, מסמנים מה שאתם אוהבים עם ❤️ ויוצרים קשר ב
+                    <RiWhatsappFill color={'#25D366'}/>
+                    <br/>  כמו יד2 אבל עם אנשים מוכרים וכאן קרוב.
                 </IntroP>
                 <IntroButton>
                    <Button to={'סלון'}
@@ -31,7 +33,7 @@ const IntroSection = () => {
                            offset={-80}
                            onMouseEnter={onHover}
                            onMouseLeave={onHover}>
-                       בוא נתחיל    {hover ? <ArrowForward/> : <ArrowRight/>}
+                       יאללה להתחיל!{hover ? <ArrowForward/> : <ArrowRight/>}
                    </Button>
                 </IntroButton>
             </IntroContent>
