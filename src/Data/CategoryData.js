@@ -86,7 +86,7 @@ import vacum from "../images/more/vacum.jpeg"
 import dryer from "../images/more/dryier.jpeg"
 
 import kia from "../images/cars/kia.jpeg"
-//import toyota from "../images/cars/toyota.jpeg"
+import toyota from "../images/cars/toyota.jpeg"
 
 export const CategoryData = [
     {
@@ -193,6 +193,7 @@ export const CategoryData = [
             {id: '35', name: 'לוח מגנטי', description: 'לוח מגנטי לתמונות הודעות' , price: 50, image: magnetBoard, isSold: false, isAvailableInJune: false },
             {id: '36', name: 'מדפסת', description: 'מדפסת hp בת 4 עם מחסנית דיו נוספת' , price: 100, image: printer, isSold: false, isAvailableInJune: false },
             {id: '37', name: 'ממסר deco', description: '2 מכשירי mesh של חברת deco' , price: 300, image: deco, isSold: false, isAvailableInJune: false },
+            {id: '371', name: ' ep ', description: 'סנסנור מקורי של חברת אוגורי - סוללה טובה לעד שלוש שנים (אולי)' , price: 400, image: ep, isSold: false, isAvailableInJune: false, link: 'https://www.ebay.com/itm/233966151240'},
         ]
     },
     {
@@ -204,7 +205,7 @@ export const CategoryData = [
             {id: '39', name: 'אופניים', description: '2 זוגות אופניים פשוטים המחיר הוא עבור זוג' , price: 100, image: bicks, isSold: false, isAvailableInJune: false },
             {id: '40', name: 'צליית אוטיניטיק משפחתית', description: 'צלייה מדגם משפחתי - השתמשנו רק קיץ אחד במצב טוב' , price: 200, image: authentic, isSold: false, isAvailableInJune: false },
             {id: '41', name: 'פויקה ומחבתות', description: 'פוקיה 4, שתי מחבתות למדורה, פויקה קטנטן. המחיר להכל ניתן לקנות חלק' , price: 250, image: potsPans, isSold: false, isAvailableInJune: false },
-            {id: '42', name: 'צידיניות', description: 'צמד צידיניות - הקטנה נכנסת בגדולה' , price: 100, image: picnic, isSold: false, isAvailableInJune: false },
+            {id: '42', name: 'צידיניות', description: 'צמד צידיניות - הקטנה נכנסת בגדולה' , price: 100, image: picnic, isSold: true, isAvailableInJune: false },
         ]
     },
     {
@@ -218,6 +219,17 @@ export const CategoryData = [
             {id: '46', name: 'שולחן סלון', description: 'שולחן סלון שלושה חלקים' , price: 300, image: livingRoomTable, isSold: false, isAvailableInJune: false },
             {id: '47', name: 'כסא', description: '2 כסאות INGOLF איקאה,' , price: 100, image: whiteChair, isSold: false, isAvailableInJune: false },
             {id: '48', name: 'שולחן אוכל מתקפל', description: 'שולחן איקאה עם כנפיים מתקפלות' , price: 250, image: foldTable, isSold: false, isAvailableInJune: false },
+            {id: '49', name: 'מייבש כביסה', description: 'מייבש אלקטרולוקס 7 קילו' , price:  1500, image: dryer, isSold: false, isAvailableInJune: false },
+            {id: '50', name: 'שואב אבק', description: 'שואב אבק jimmi' , price: 250, image: vacum, isSold: false, isAvailableInJune: false },
+        ]
+    },
+    {
+        categoryName: 'רכבים',
+        categoryDescription: 'כלי התחבורה שלנו',
+        roomPictures: [],
+        items: [
+            {id: '51', name: 'קיה פיקנטו', description: 'קיה פיקאנטו 2013, 120000 קמ, טסט מנומבר האחרון', price: 31500, image: kia, isSold: true, isAvailableInJune: false },
+            {id: '52', name: 'טיוטא קורולה', description: 'טיוטא קורולה 2011, 220000 קמ, יד 3 ,  טסט מאוגוסט ' , price: 33000, image: toyota, isSold: false, isAvailableInJune: true },
         ]
     }
 ]
