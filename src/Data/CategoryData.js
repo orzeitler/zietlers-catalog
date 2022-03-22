@@ -106,7 +106,7 @@ export const CategoryData = [
             {id: '5', name: 'ציור באפלו', description: 'עבודת יד , 65 על 60', price: 200, image: pic1, isSold: false, isAvailableInJune: false },
             {id: '6', name: 'ציור נשר', description: 'עבודת יד , 48 על 52', price: 200, image: pic2, isSold: false, isAvailableInJune: false },
             {id: '7', name: 'ציור צבי', description: 'עבודת יד , 48 על 52', price: 200, image: pic3, isSold: false, isAvailableInJune: false },
-            {id: '8', name: ' ״סנסיווירה״', description: 'עציץ גדול בריא ולא דורש הרבה מים ואור', price: 200, image: plant1, isSold: false, isAvailableInJune: false },
+            {id: '8', name: ' ״סנסיווירה״', description: 'עציץ גדול בריא ולא דורש הרבה מים ואור', price: 200, image: plant1, isSold: true, isAvailableInJune: false },
             {id: '9', name: ' ״אוזן הפיל״', description: 'עציץ בינוני', price: 150, image: plant2, isSold: false, isAvailableInJune: false },
             {id: '10', name: 'דקל גדול', description: 'דקל בריא בעציץ גדול', price: 250, image: plant3, isSold: false, isAvailableInJune: false },
             {id: '11', name: 'שטיח', description: 'דורש ניקוי - למסירה', price: 0, image: rug, isSold: false, isAvailableInJune: false },
@@ -129,13 +129,13 @@ export const CategoryData = [
             {id: '153', name: 'מיקסר kmix', description: 'מיקסר kMix Picasso מקצועי KENWOOD דגם KMX750WH לבן. נרכש לפני שנה ונשמר כמיקסר ללא גלוטן' , price: 1200, image: mikser, isSold: false},
             {id: '154', name: 'סיר טיגון ללא שמן', description: 'סיר טיגון על אוויר חם' , price: 100, image: airFry, isSold: false, link: 'https://tapdesign.co.il/items/3737131-%D7%A1%D7%99%D7%A8-%D7%98%D7%99%D7%92%D7%95%D7%9F-%D7%A1%D7%9E%D7%95%D7%A8%D7%90%D7%99-'},
             {id: '155', name: 'מיקרו', description: 'מיקרוגל samsung כסוף' , price: 350, image: micro, isSold: false},
-            {id: '156', name: 'עגלת מטבח', description: 'עגלת איחסון על גלגלים בצבע שחור' , price: 80, image: cart, isSold: false, link: 'https://www.ikea.com/il/he/p/raskog-trolley-black-90333976/'},
+            {id: '156', name: 'עגלת מטבח', description: 'עגלת איחסון על גלגלים בצבע שחור' , price: 80, image: cart, isSold: true, link: 'https://www.ikea.com/il/he/p/raskog-trolley-black-90333976/'},
             {id: '157', name: 'מדיח כלים', description: 'מדיח כלים bosch נקנה ב2018'  , price: 1800, image: dishwasher, isSold: false, isAvailableInJune: true},
             {id: '158', name: 'כוסות יין', description: 'כוסות יין - המחיר הוא עבור כוס בודדת וישנן 24 סהכ' , price: 5, image: wineGlasses, isSold: false},
             {id: '159', name: 'מחזיק בקבוק יין', description: 'קישוט לבקבוק יין' , price: 40, image: wineDude, isSold: false},
             {id: '150', name: 'סט קערות', description: 'סט קערות, 9 חלקים ' , price: 150, image: bowels, isSold: false, link: 'https://www.thehut.com/kitchen-accessories/joseph-joseph-editions-nest-9-piece-food-preparation-set-sky/12689656.html'},
             {id: '1511', name: 'מיקסר ידני', description: 'מיקסר ידני לבן סאוטר ' , price: 70, image: handMixer, isSold: false, link: 'https://www.payngo.co.il/232427.html'},
-            {id: '1512', name: 'בלנדר מוט', description: 'בלנדר מוט Graetz' , price: 40, image: blender, isSold: false },
+            {id: '1512', name: 'בלנדר מוט', description: 'בלנדר מוט Graetz' , price: 40, image: blender, isSold: true },
             {id: '1513', name: 'נינגה', description: 'מעבד מזון נינגה ' , price: 90, image: ninja, isSold: false, link: 'https://www.ivory.co.il/catalog.php?id=31470'}
         ]
     },
@@ -172,11 +172,11 @@ export const CategoryData = [
         items: [
             {id: '29', name: '5 מדפים מרובעים', description: 'מדפים eket מאיקאה', price: 250, image: shelves, isSold: false, isAvailableInJune: false },
             {id: '30', name: 'כורסה נפתחת למיטת יחיד', description: 'כורסא נפתחת למיטת יחיד, כולל כיסוי וארגז אחסון קטן', price: 500, image: bedChair, isSold: false, isAvailableInJune: false, link: 'https://www.ikea.com/il/he/p/lycksele-loevas-chair-bed-vansbro-bright-green-s59386991/' },
-            {id: '31', name: 'מנורת קריאה', description: 'מנורת דובי פנדה', price: 50, image: lamp, isSold: false, isAvailableInJune: false },
-            {id: '32', name: 'שידה להחתלה', description: 'שידה למסירה', price: 0, image: shida, isSold: false, isAvailableInJune: false },
+            {id: '31', name: 'מנורת קריאה', description: 'מנורת דובי פנדה', price: 50, image: lamp, isSold: true, isAvailableInJune: false },
+            {id: '32', name: 'שידה להחתלה', description: 'שידה למסירה', price: 0, image: shida, isSold: true, isAvailableInJune: false },
             {id: '321', name: 'מיטת ילדים ', description: 'מיטת מעבר, כולל מעקה ומזרון', price: 100, image: bed, isSold: false, isAvailableInJune: true },
             {id: '322', name: 'כוורת', description: 'כוורת לספרים וצעצועים כולל 4 סלים', price: 150, image: konanit, isSold: false, isAvailableInJune: false, link: 'https://www.ikea.com/il/he/p/kallax-shelving-unit-white-80275887/#content' },
-            {id: '323', name: 'מדף ספרים', description: 'מדף ספרים', price: 10, image: bookShelve, isSold: false, isAvailableInJune: false },
+            {id: '323', name: 'מדף ספרים', description: 'מדף ספרים', price: 10, image: bookShelve, isSold: true, isAvailableInJune: false },
         ]
     },
     {
@@ -191,8 +191,8 @@ export const CategoryData = [
             {id: '34', name: 'לוח שעם', description: 'לוח שעם, האייל כלול' , price: 50, image: messageBoard, isSold: false, isAvailableInJune: false },
             {id: '35', name: 'לוח מגנטי', description: 'לוח מגנטי לתמונות והודעות' , price: 50, image: magnetBoard, isSold: false, isAvailableInJune: false },
             {id: '36', name: 'מדפסת', description: 'מדפסת hp בת 4 עם מחסנית דיו נוספת' , price: 100, image: printer, isSold: false, isAvailableInJune: false },
-            {id: '37', name: 'ממסר deco', description: '2 מכשירי mesh של חברת deco' , price: 300, image: deco, isSold: false, isAvailableInJune: false },
-            {id: '371', name: ' ep ', description: 'סנסנור מקורי של חברת אוגורי - סוללה טובה לעד שלוש שנים (אולי)' , price: 400, image: ep, isSold: false, isAvailableInJune: false, link: 'https://www.ebay.com/itm/233966151240'},
+            {id: '37', name: 'ממסר deco', description: '2 מכשירי mesh של חברת deco' , price: 300, image: deco, isSold: true, isAvailableInJune: false },
+            {id: '371', name: ' ep ', description: 'סנסנור מקורי של חברת אוגורי - סוללה טובה לעד שלוש שנים (אולי)' , price: 400, image: ep, isSold: true, isAvailableInJune: false, link: 'https://www.ebay.com/itm/233966151240'},
         ]
     },
     {
@@ -200,9 +200,9 @@ export const CategoryData = [
         categoryDescription: 'קאמפיניג עד אופניים',
         roomPictures: [],
         items: [
-            {id: '38', name: 'אוהל 5', description: 'אוהל נפתח פתיחה מהירה - מתאים ל5 אנשים', price: 200, image: tent, isSold: false, isAvailableInJune: false },
+            {id: '38', name: 'אוהל 5', description: 'אוהל נפתח פתיחה מהירה - מתאים ל5 אנשים', price: 200, image: tent, isSold: true, isAvailableInJune: false },
             {id: '39', name: 'אופניים', description: '2 זוגות אופניים, המחיר עבור לבן כילאי 4-6 נקנה לפני שנה הכחולים למסירה' , price: 250, image: bicks, isSold: false, isAvailableInJune: false, link: 'https://www.google.com/shopping/product/1835182137764665690?q=%D7%93%D7%A7%D7%98%D7%9C%D7%95%D7%9F+%D7%90%D7%95%D7%A4%D7%A0%D7%99+%D7%99%D7%9C%D7%93%D7%99%D7%9D&client=ms-android-samsung-ss&biw=412&bih=777&tbs=vw:g&prmd=inmv&sxsrf=APq-WBuh2v-h0gfYYohjcq4z95M9UE3IaQ:1647892516135&prds=eto:6835963195792270536_0,cdl:1,prmr:1,rsk:PC_16298500031382095065,cs:1' },
-            {id: '40', name: 'צילייה משפחתית', description: 'צילייה לים אותנטיק Family OTENTIK - השתמשנו רק קיץ אחד במצב טוב' , price: 200, image: authentic, isSold: false, isAvailableInJune: false, link: 'https://xhome.co.il/product/%D7%A6%D7%99%D7%9C%D7%99%D7%99%D7%94-%D7%9C%D7%99%D7%9D-%D7%90%D7%95%D7%AA%D7%A0%D7%98%D7%99%D7%A7-family-otentik/?attribute_pa_color=%25d7%25aa%25d7%259b%25d7%259c%25d7%25aa&gclid=CjwKCAjwxOCRBhA8EiwA0X8hi076qcSnOBFEtBvQA2iatt_PwIxE8NzTKcUCEk-rk0eh1xkPaB8BjhoCeFQQAvD_BwE' },
+            {id: '40', name: 'צילייה משפחתית', description: 'צילייה לים אותנטיק Family OTENTIK - השתמשנו רק קיץ אחד במצב טוב' , price: 200, image: authentic, isSold: true, isAvailableInJune: false, link: 'https://xhome.co.il/product/%D7%A6%D7%99%D7%9C%D7%99%D7%99%D7%94-%D7%9C%D7%99%D7%9D-%D7%90%D7%95%D7%AA%D7%A0%D7%98%D7%99%D7%A7-family-otentik/?attribute_pa_color=%25d7%25aa%25d7%259b%25d7%259c%25d7%25aa&gclid=CjwKCAjwxOCRBhA8EiwA0X8hi076qcSnOBFEtBvQA2iatt_PwIxE8NzTKcUCEk-rk0eh1xkPaB8BjhoCeFQQAvD_BwE' },
             {id: '41', name: 'פויקה ומחבתות', description: 'פוייקה 4, שתי מחבתות למדורה, פויקה קטנטן. המחיר להכל ניתן לקנות חלק' , price: 250, image: potsPans, isSold: false, isAvailableInJune: false },
             {id: '42', name: 'צידיניות', description: 'צמד צידיניות - הקטנה נכנסת בגדולה' , price: 100, image: picnic, isSold: true, isAvailableInJune: false },
         ]
