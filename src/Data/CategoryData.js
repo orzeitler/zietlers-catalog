@@ -236,7 +236,7 @@ export const CategoryData = [
             {id: '48', name: 'שולחן אוכל מתקפל', description: 'שולחן איקאה עם כנפיים מתקפלות' , price: 250, image: foldTable, isSold: false, isAvailableInJune: false },
             {id: '49', name: 'מייבש כביסה', description: 'מייבש אלקטרולוקס 7 קילו' , price:  1500, image: dryer, isSold: true, isAvailableInJune: false },
             {id: '491', name: 'מכונת כביסה', description: 'מכונת כביסה פתיחה עליונה למסירה' , price:  0, image: washing, isSold: false, isAvailableInJune: true },
-            {id: '50', name: 'שואב אבק', description: 'שואב אבק jimmy' , price: 200, image: vacum, isSold: false, isAvailableInJune: false },
+            {id: '50', name: 'שואב אבק', description: 'שואב אבק jimmy' , price: 200, image: vacum, isSold: true, isAvailableInJune: false },
             {id: '501', name: 'ספפה', description: 'מיטה נפתחת עם ארגז אחסון - למסירה' , price: 0, image: sappa, isSold: false, isAvailableInJune: false },
         ]
     },
