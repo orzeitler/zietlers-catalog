@@ -124,7 +124,7 @@ export const CategoryData = [
             {imageSrc: kitchenFullRoomL},
         ],
         items: [
-            {id: '14', name: 'תנור אפייה', description: 'תנור אפייה AEG דגם BPE255632W, בילט-אין ופירוליטי עם מסילות טלסקופיות + 3 תבניות אפייה ורשת צלייה. נרכש בנובמבר 2018', price: 1600, image: oven, isSold: true, isAvailableInJune: false, link: 'https://www.coelectric.co.il/items/3979474-%D7%AA%D7%A0%D7%95%D7%A8-%D7%A4%D7%99%D7%A8%D7%95%D7%9C%D7%99%D7%98%D7%99-%D7%91%D7%A0%D7%95%D7%99-%D7%93%D7%92%D7%9D-BPE255632W-AEG-%D7%91%D7%A6%D7%91%D7%A2-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%9C%D7%91%D7%A0%D7%94-%D7%90-%D7%90-%D7%92' },
+            {id: '14', name: 'תנור אפייה', description: 'תנור אפייה AEG דגם BPE255632W, בילט-אין ופירוליטי עם מסילות טלסקופיות + 3 תבניות אפייה ורשת צלייה. נרכש בנובמבר 2018', price: 1600, image: oven, isSold: false, isAvailableInJune: false, link: 'https://www.coelectric.co.il/items/3979474-%D7%AA%D7%A0%D7%95%D7%A8-%D7%A4%D7%99%D7%A8%D7%95%D7%9C%D7%99%D7%98%D7%99-%D7%91%D7%A0%D7%95%D7%99-%D7%93%D7%92%D7%9D-BPE255632W-AEG-%D7%91%D7%A6%D7%91%D7%A2-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%9C%D7%91%D7%A0%D7%94-%D7%90-%D7%90-%D7%92' },
             {id: '15', name: 'סט סכיני שף', description: 'סט 6 סכיני שף מסדרת טום אביב של ARCOSTEEL + מעמד' , price: 380, image: knives, isSold: false, isAvailableInJune: false, link: 'https://cookshop.co.il/%D7%9E%D7%95%D7%A6%D7%A8/%D7%A1%D7%98-%D7%A1%D7%9B%D7%99%D7%A0%D7%99-%D7%A9%D7%A3-%D7%9E%D7%A2%D7%9E%D7%93-%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99-%D7%9E%D7%A1%D7%93%D7%A8%D7%AA-%D7%98%D7%95%D7%9D-%D7%90%D7%91%D7%99%D7%91/'},
             {id: '152', name: 'מכונת נספרסו', description: 'מכונת קפה של נספרסו' , price: 380, image: nespresso, isSold: true},
             {id: '153', name: 'מיקסר kmix', description: 'מיקסר kMix Picasso מקצועי KENWOOD דגם KMX750WH לבן. נרכש לפני שנה ונשמר כמיקסר ללא גלוטן' , price: 1200, image: mikser, isSold: true},
@@ -170,7 +170,7 @@ export const CategoryData = [
         ],
         items: [
             {id: '29', name: '5 מדפים מרובעים', description: 'מדפים eket מאיקאה', price: 250, image: shelves, isSold: false, isAvailableInJune: false },
-            {id: '30', name: 'כורסה נפתחת למיטת יחיד', description: 'כורסא נפתחת למיטת יחיד, כולל כיסוי וארגז אחסון קטן', price: 500, image: bedChair, isSold: false, isAvailableInJune: false, link: 'https://www.ikea.com/il/he/p/lycksele-loevas-chair-bed-vansbro-bright-green-s59386991/' },
+            {id: '30', name: 'כורסה נפתחת למיטת יחיד', description: 'כורסא נפתחת למיטת יחיד, כולל כיסוי וארגז אחסון קטן', price: 500, image: bedChair, isSold: true, isAvailableInJune: false, link: 'https://www.ikea.com/il/he/p/lycksele-loevas-chair-bed-vansbro-bright-green-s59386991/' },
             {id: '31', name: 'מנורת קריאה', description: 'מנורת דובי פנדה', price: 50, image: lamp, isSold: true, isAvailableInJune: false },
             {id: '32', name: 'שידה להחתלה', description: 'שידה למסירה', price: 0, image: shida, isSold: true, isAvailableInJune: false },
             {id: '321', name: 'מיטת ילדים ', description: 'מיטת מעבר, כולל מעקה ומזרון', price: 100, image: bed, isSold: false, isAvailableInJune: true },
