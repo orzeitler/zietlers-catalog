@@ -7,7 +7,7 @@ import entranceShelf from "../images/living room /entrance-shelf.jpg";
 import mirror from "../images/living room /mirror.jpg";
 import pic1 from "../images/living room /pic1.jpg";
 import pic2 from "../images/living room /pic2.jpg";
-import pic3 from "../images/living room /pic3.jpg";
+import pic4 from "../images/living room /pic4.jpg";
 import plant1 from "../images/living room /plant1.jpg";
 import plant2 from "../images/living room /plant2.jpg";
 import plant3 from "../images/living room /plant3.jpg";
@@ -32,6 +32,10 @@ import wineDude from "../images/kitchen/wine_bottle.jpg";
 import bowels from "../images/kitchen/bowels.jpeg";
 import cart from "../images/kitchen/cart.jpeg";
 import ninja from "../images/kitchen/ninja.jpeg";
+import tavnit1 from "../images/kitchen/tavnit1.jpg";
+import tavnit2 from "../images/kitchen/tavnit2.jpg";
+import tavnit3 from "../images/kitchen/tavnit3.jpg";
+import canisters from "../images/kitchen/canisters.jpg";
 
 import babyTheme from "../images/baby/baby_theme.jpg";
 import activityMatres from "../images/baby/activity_matress.jpg";
@@ -50,7 +54,7 @@ import bath from "../images/baby/bath.jpeg";
 import kidsTheme1 from "../images/kidsRoom/kids_theme1.jpg";
 import kidsTheme2 from "../images/kidsRoom/kids_theme2.jpg";
 import kidsTheme3 from "../images/kidsRoom/kids_theme3.jpg";
-import shelves from "../images/kidsRoom/shelves.jpeg";
+import shelves from "../images/kidsRoom/shelves.jpg";
 import bedChair from "../images/kidsRoom/bed_chair.jpg";
 import lamp from "../images/kidsRoom/lamp.jpg";
 import shida from "../images/kidsRoom/shida.jpg";
@@ -71,6 +75,7 @@ import lampO from "../images/office/lamp.jpeg"
 
 import mesosim from "../images/design/mesosim.jpeg"
 import baskets from "../images/design/baskets.jpeg"
+import plant4 from "../images/design/plant4.jpg"
 
 import tent from "../images/outDoors/tent.jpg";
 import potsPans from "../images/outDoors/pots_pans.jpg";
@@ -89,6 +94,9 @@ import vacum from "../images/more/vacum.jpeg"
 import dryer from "../images/more/dryier.jpeg"
 import sappa from "../images/more/sappa.jpeg"
 import washing from "../images/more/washing.jpeg"
+import fossa from "../images/more/fossa.jpg"
+import glassCleaner from "../images/more/glass_cleaner.jpg"
+import massager from "../images/more/massager.jpg"
 
 import kia from "../images/cars/kia.jpeg"
 import toyota from "../images/cars/toyota.jpeg"
@@ -107,10 +115,7 @@ export const CategoryData = [
             {id: '4', name: 'מראה נפתחת', description: 'מֿראה נפתחת של Nooshka במצב מצויין, נקנתה לפני שנה', price: 1800, image: mirror, isSold: false, isAvailableInJune: false},
             {id: '13', name: 'שולחן סלון', description: 'שולחן סלון kaza, שני חלקים', price: 800, image: table, isSold: false, isAvailableInJune: false },
             {id: '2', name: 'וילונות ומוטות', description: 'וילונות עם מוטות ל3 חלונות ברוחבים משתנים, המחיר עבור סט לחלון' , price: 30, image: curtain, isSold: false, isAvailableInJune: false },
-            {id: '5', name: 'ציור באפלו', description: 'עבודת יד , 65 על 60', price: 200, image: pic1, isSold: true, isAvailableInJune: false },
-            {id: '6', name: 'ציור נשר', description: 'עבודת יד , 48 על 52', price: 200, image: pic2, isSold: true, isAvailableInJune: false },
-            // {id: '7', name: 'ציור צבי', description: 'עבודת יד , 48 על 52', price: 200, image: pic3, isSold: false, isAvailableInJune: false },
-            {id: '8', name: ' ״סנסיווירה״', description: 'עציץ גדול בריא ולא דורש הרבה מים ואור', price: 200, image: plant1, isSold: true, isAvailableInJune: false },
+            {id: '7', name: 'תמונות', description: 'איורים ממוסגרים המחיר לאחת', price: 35, image: pic4, isSold: false, isAvailableInJune: false },
             {id: '11', name: 'שטיח', description: 'דורש ניקוי - למסירה', price: 0, image: rug, isSold: false, isAvailableInJune: false },
             {id: '12', name: 'סט ספות', description: 'סט ספות 2 חלקים מאיאקה - ניתן להחליף ריפוד', price: 400, image: sofa, isSold: false, isAvailableInJune: true },
         ]
@@ -124,19 +129,18 @@ export const CategoryData = [
             {imageSrc: kitchenFullRoomL},
         ],
         items: [
-            {id: '14', name: 'תנור אפייה', description: 'תנור אפייה AEG דגם BPE255632W, בילט-אין ופירוליטי עם מסילות טלסקופיות + 3 תבניות אפייה ורשת צלייה. נרכש בנובמבר 2018', price: 1600, image: oven, isSold: false, isAvailableInJune: false, link: 'https://www.coelectric.co.il/items/3979474-%D7%AA%D7%A0%D7%95%D7%A8-%D7%A4%D7%99%D7%A8%D7%95%D7%9C%D7%99%D7%98%D7%99-%D7%91%D7%A0%D7%95%D7%99-%D7%93%D7%92%D7%9D-BPE255632W-AEG-%D7%91%D7%A6%D7%91%D7%A2-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%9C%D7%91%D7%A0%D7%94-%D7%90-%D7%90-%D7%92' },
             {id: '15', name: 'סט סכיני שף', description: 'סט 6 סכיני שף מסדרת טום אביב של ARCOSTEEL + מעמד' , price: 380, image: knives, isSold: false, isAvailableInJune: false, link: 'https://cookshop.co.il/%D7%9E%D7%95%D7%A6%D7%A8/%D7%A1%D7%98-%D7%A1%D7%9B%D7%99%D7%A0%D7%99-%D7%A9%D7%A3-%D7%9E%D7%A2%D7%9E%D7%93-%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99-%D7%9E%D7%A1%D7%93%D7%A8%D7%AA-%D7%98%D7%95%D7%9D-%D7%90%D7%91%D7%99%D7%91/'},
             {id: '152', name: 'מכונת נספרסו', description: 'מכונת קפה של נספרסו' , price: 380, image: nespresso, isSold: true},
-            {id: '153', name: 'מיקסר kmix', description: 'מיקסר kMix Picasso מקצועי KENWOOD דגם KMX750WH לבן. נרכש לפני שנה ונשמר כמיקסר ללא גלוטן' , price: 1200, image: mikser, isSold: true},
-            {id: '154', name: 'סיר טיגון ללא שמן', description: 'סיר טיגון על אוויר חם' , price: 100, image: airFry, isSold: true, link: 'https://tapdesign.co.il/items/3737131-%D7%A1%D7%99%D7%A8-%D7%98%D7%99%D7%92%D7%95%D7%9F-%D7%A1%D7%9E%D7%95%D7%A8%D7%90%D7%99-'},
+            {id: '153', name: 'מיקסר kmix', description: 'מיקסר kMix Picasso מקצועי KENWOOD דגם KMX750WH לבן. נרכש לפני שנה ונשמר כמיקסר ללא גלוטן' , price: 1200, image: mikser, isSold: false},
             {id: '155', name: 'מיקרו', description: 'מיקרוגל samsung כסוף' , price: 350, image: micro, isSold: false},
-            {id: '156', name: 'עגלת מטבח', description: 'עגלת איחסון על גלגלים בצבע שחור' , price: 80, image: cart, isSold: true, link: 'https://www.ikea.com/il/he/p/raskog-trolley-black-90333976/'},
             {id: '157', name: 'מדיח כלים', description: 'מדיח כלים bosch נקנה ב2018'  , price: 1800, image: dishwasher, isSold: false, isAvailableInJune: true},
             {id: '159', name: 'מחזיק בקבוק יין', description: 'קישוט לבקבוק יין' , price: 40, image: wineDude, isSold: false},
             {id: '150', name: 'סט קערות', description: 'סט קערות, 9 חלקים ' , price: 150, image: bowels, isSold: true, link: 'https://www.thehut.com/kitchen-accessories/joseph-joseph-editions-nest-9-piece-food-preparation-set-sky/12689656.html'},
-            {id: '1511', name: 'מיקסר ידני', description: 'מיקסר ידני לבן סאוטר ' , price: 70, image: handMixer, isSold: true, link: 'https://www.payngo.co.il/232427.html'},
-            {id: '1512', name: 'בלנדר מוט', description: 'בלנדר מוט Graetz' , price: 40, image: blender, isSold: true },
-            {id: '1513', name: 'נינגה', description: 'מעבד מזון נינגה ' , price: 90, image: ninja, isSold: false, link: 'https://www.ivory.co.il/catalog.php?id=31470'}
+            {id: '1513', name: 'נינגה', description: 'מעבד מזון נינגה ' , price: 90, image: ninja, isSold: false, link: 'https://www.ivory.co.il/catalog.php?id=31470'},
+            {id: '1513', name: 'תבנית אפייה', description: ' תבנית אפייה לעוגה מחולק לתאים' , price: 65, image: tavnit1, isSold: false, link: 'https://shop.super-pharm.co.il/home/kitchen/cooking-and-baking/baking-trays/%D7%AA%D7%91%D7%A0%D7%99%D7%AA-%D7%90%D7%A4%D7%99%D7%99%D7%94-%D7%9E%D7%97%D7%95%D7%9C%D7%A7%D7%AA-%D7%9C-18-%D7%91%D7%A8%D7%90%D7%95%D7%A0%D7%99%D7%96/p/mp-00045230'},
+            {id: '1513', name: 'תבנית אפייה', description: 'תבנית אפיית קאפקייקס ' , price: 40, image: tavnit2, isSold: false, },
+            {id: '1513', name: 'תבנית אפייה', description: ' תבניות אפייה מסיליקון המחיר לאחת' , price: 40, image: tavnit3, isSold: false},
+            {id: '1513', name: 'מיכלי אחסון וקום', description: '2 מכלי אחסון בוקום ' , price: 40, image: canisters, isSold: false, link: 'https://www.uniqook.co.il/shop/%D7%A1%D7%98-2-%D7%9E%D7%99%D7%9B%D7%9C%D7%99-pop-%D7%A8%D7%91%D7%95%D7%A2-%D7%A7%D7%98%D7%9F-%D7%A7%D7%A6%D7%A8-1-%D7%9C%D7%99%D7%98%D7%A8/'}
         ]
     },
     {
@@ -152,11 +156,9 @@ export const CategoryData = [
             {id: '20', name: 'כסאות בטיחות לאוטו', description: 'כסאות - למסירה', price: 0, image: carChairs, isSold: false, isAvailableInJune: false },
             {id: '21', name: 'מיטת תינוק', description: 'מיטה עם מזרון ונחשוש', price: 450, image: babyBed, isSold: false, isAvailableInJune: true },
             {id: '22', name: 'קישוטי קיר', description: 'ציורי יד על ידי האומנית ״חווה״', price: 40, image: wallDecorations, isSold: false, isAvailableInJune: false },
-            {id: '23', name: 'רדיאטור', description: 'רדיאטור 11 צלעות של Davo' , price: 150, image: radiator, isSold: true, isAvailableInJune: false },
             {id: '24', name: 'מנשא 1', description: 'מנשא בייבי ביורן' , price: 350, image: carry1, isSold: false, isAvailableInJune: false },
             {id: '25', name: 'מנשא 2', description: 'מנשא argobaby' , price: 250, image: carry2, isSold: false, isAvailableInJune: false },
-            {id: '26', name: 'עגלה', description: 'עגלה אמבטיה + ישיבה, באה עם סט בדים להחלפה מלאה' , price: 300, image: stroller, isSold: true },
-            {id: '27', name: 'מוניטור', description: 'מוניטור לשינה' , price: 100, image: monitor, isSold: true, isAvailableInJune: false },
+            {id: '27', name: 'בייבי סנס', description: 'מוניטור לשינה' , price: 100, image: monitor, isSold: false, isAvailableInJune: false },
             {id: '281', name: 'אמבטיה', description: 'אמבטית רחצה לתינוק שילב עם מעמד מתקפל, מתאימה לאמוד בתוך אמבטיה' , price: 100, image: bath, isSold: false, isAvailableInJune: false },
         ]
     },
@@ -170,13 +172,11 @@ export const CategoryData = [
         ],
         items: [
             {id: '29', name: '5 מדפים מרובעים', description: 'מדפים eket מאיקאה', price: 250, image: shelves, isSold: false, isAvailableInJune: false },
-            {id: '30', name: 'כורסה נפתחת למיטת יחיד', description: 'כורסא נפתחת למיטת יחיד, כולל כיסוי וארגז אחסון קטן', price: 500, image: bedChair, isSold: true, isAvailableInJune: false, link: 'https://www.ikea.com/il/he/p/lycksele-loevas-chair-bed-vansbro-bright-green-s59386991/' },
             {id: '31', name: 'מנורת קריאה', description: 'מנורת דובי פנדה', price: 50, image: lamp, isSold: true, isAvailableInJune: false },
-            {id: '32', name: 'שידה להחתלה', description: 'שידה למסירה', price: 0, image: shida, isSold: true, isAvailableInJune: false },
+            {id: '32', name: 'שידה להחתלה', description: 'שידה למסירה', price: 0, image: shida, isSold: false, isAvailableInJune: false },
             {id: '321', name: 'מיטת ילדים ', description: 'מיטת מעבר, כולל מעקה ומזרון', price: 100, image: bed, isSold: false, isAvailableInJune: true },
-            {id: '322', name: 'כוורת', description: 'כוורת לספרים וצעצועים כולל 4 סלים', price: 150, image: konanit, isSold: true, isAvailableInJune: false, link: 'https://www.ikea.com/il/he/p/kallax-shelving-unit-white-80275887/#content' },
             {id: '323', name: 'מדף ספרים', description: 'מדף ספרים', price: 10, image: bookShelve, isSold: true, isAvailableInJune: false },
-            {id: '324', name: 'קטאן', description: 'סט משחק חדש לגמרי - לא נפתח', price: 70, image: katan, isSold: false, isAvailableInJune: false },
+            // {id: '324', name: 'קטאן', description: 'סט משחק חדש לגמרי - לא נפתח', price: 70, image: katan, isSold: false, isAvailableInJune: false },
         ]
     },
     {
@@ -186,10 +186,13 @@ export const CategoryData = [
         items: [
             {id: '151', name: 'שעון', description: 'שעון קיר קטן, קוטר 21 סמ ' , price: 40, image: clock, isSold: false, isAvailableInJune: false},
             {id: '9', name: ' ״אוזן הפיל״', description: 'עציץ בינוני', price: 150, image: plant2, isSold: false, isAvailableInJune: false },
-            {id: '10', name: 'דקל גדול', description: 'דקל בריא בעציץ גדול', price: 250, image: plant3, isSold: true, isAvailableInJune: false },
+            {id: '8', name: ' ״סנסיווירה״', description: 'עציץ גדול בריא ולא דורש הרבה מים ואור', price: 200, image: plant1, isSold: true, isAvailableInJune: false },
+            {id: '10', name: 'דקל גדול', description: 'דקל בריא בעציץ גדול', price: 250, image: plant3, isSold: false, isAvailableInJune: false },
             {id: '3', name: 'מדף', description: 'מדף מסדרת Cubist של SOHO. כולל עציץ.', price: 100, image: entranceShelf, isSold: false, link: 'https://www.sohocenter.co.il/products/mdf-dkurtibi-cubist'},
             {id: '101', name: 'מדפים משושים', description: '3 מדפים בגדלים שונים', price: 150, image: mesosim, isSold: false, isAvailableInJune: false },
+            {id: '103', name: 'עציץ גדול', description: 'עציץ גדול של ספטיפיליום', price: 100, image: plant4, isSold: false, isAvailableInJune: false },
             {id: '102', name: 'סלסלות', description: '2 סלסלות קש ניתן לקנות גם חלק', price: 100, image: baskets, isSold: false, isAvailableInJune: false },
+            {id: '503', name: 'כיסי ״פלורה״', description: 'כיסים לתלייה לעציצים או חפצים אחרים' , price: 20, image: fossa, isSold: false, isAvailableInJune: false },
         ]
     },
     {
@@ -201,11 +204,9 @@ export const CategoryData = [
         ],
         items: [
             {id: '33', name: 'כסא משרדי', description: 'כסא משרדי מאיקאה', price: 150, image: officeChair, isSold: true, isAvailableInJune: false , link: 'https://www.ikea.com/il/he/p/flintan-office-chair-black-10489028/'},
-            {id: '331', name: 'שולחן משרדי', description: 'שולחן עם כנף אחת נפתחת', price: 90, image: officeTheme1, isSold: true, isAvailableInJune: false },
             {id: '34', name: 'לוח שעם', description: 'לוח שעם, האייל כלול' , price: 50, image: messageBoard, isSold: false, isAvailableInJune: false },
             {id: '35', name: 'לוח מגנטי', description: 'לוח מגנטי לתמונות והודעות' , price: 50, image: magnetBoard, isSold: true, isAvailableInJune: false },
             {id: '36', name: 'מדפסת', description: 'מדפסת hp בת 4 עם מחסנית דיו נוספת' , price: 100, image: printer, isSold: true, isAvailableInJune: false },
-            {id: '37', name: 'ממסר deco', description: '2 מכשירי mesh של חברת deco' , price: 300, image: deco, isSold: true, isAvailableInJune: false },
             {id: '371', name: ' ep ', description: 'סנסנור מקורי של חברת אוגורי - סוללה טובה לעד שלוש שנים (אולי)' , price: 400, image: ep, isSold: true, isAvailableInJune: false, link: 'https://www.ebay.com/itm/233966151240'},
             {id: '371', name: 'מנורת שולחן', description: 'מנורת שולחן איקיא - מגיעה עם נורה ספייר' , price: 100, image: lampO, isSold: false, isAvailableInJune: false},
         ]
@@ -232,12 +233,11 @@ export const CategoryData = [
             {id: '44', name: 'שידה', description: 'שידה גדולה מעץ מלא' , price: 450, image: dresser, isSold: true, isAvailableInJune: false },
             {id: '45', name: 'סט ספריות', description: 'סט ספריות דגם billy ניתן לקנות גם חלקים' , price: 1000, image: largeShelves, isSold: false, isAvailableInJune: false, link: 'https://www.ikea.com/il/he/p/billy-bookcase-white-stained-oak-veneer-90404209/#content' },
             {id: '46', name: 'שולחן סלון', description: 'שולחן סלון שלושה חלקים של שומרת הזורע' , price: 1000, image: livingRoomTable, isSold: false, isAvailableInJune: false },
-            {id: '47', name: 'כסא', description: '2 כסאות INGOLF איקאה, המחיר עבור כסא אחד' , price: 100, image: whiteChair, isSold: true, isAvailableInJune: false, link: 'https://www.ikea.com/il/he/p/ingolf-chair-white-70103250/' },
-            {id: '48', name: 'שולחן אוכל מתקפל', description: 'שולחן איקאה עם כנפיים מתקפלות' , price: 250, image: foldTable, isSold: false, isAvailableInJune: false },
-            {id: '49', name: 'מייבש כביסה', description: 'מייבש אלקטרולוקס 7 קילו' , price:  1500, image: dryer, isSold: true, isAvailableInJune: false },
             {id: '491', name: 'מכונת כביסה', description: 'מכונת כביסה פתיחה עליונה למסירה' , price:  0, image: washing, isSold: false, isAvailableInJune: true },
             {id: '50', name: 'שואב אבק', description: 'שואב אבק jimmy' , price: 200, image: vacum, isSold: true, isAvailableInJune: false },
             {id: '501', name: 'ספפה', description: 'מיטה נפתחת עם ארגז אחסון - למסירה' , price: 0, image: sappa, isSold: false, isAvailableInJune: false },
+            {id: '502', name: 'מנקה חלונות', description: 'מנקה חלונות חשמלי של חברת jimmy חדש לגמרי' , price: 170, image: glassCleaner, isSold: false, link: 'https://www.banggood.com/JIMMY-VW302-Cordless-Window-Glass-Vacuum-Cleaner-with-Squeegee,Spray-Bottle-p-1536802.html' },
+            {id: '504', name: 'מכשיר עיסוי', description: 'מכשיר עיסוי quad action של דוקטור גב' , price: 350, image: massager, isSold: false, isAvailableInJune: false, link: 'https://www.biogaya.co.il/home-appliance/quad-action-dr-gav?gclid=Cj0KCQjw_4-SBhCgARIsAAlegrWPCE2MLQrBRbhSBreOFqsSRyhOdxKPZkuvpt3iSHoQg-1cXfuWDUsaAnLsEALw_wcB' },
         ]
     },
     {
