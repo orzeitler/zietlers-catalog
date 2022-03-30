@@ -5,8 +5,6 @@ import chair from "../images/living room /chair.jpeg";
 import curtain from "../images/living room /curtain.png";
 import entranceShelf from "../images/living room /entrance-shelf.jpg";
 import mirror from "../images/living room /mirror.jpg";
-import pic1 from "../images/living room /pic1.jpg";
-import pic2 from "../images/living room /pic2.jpg";
 import pic4 from "../images/living room /pic4.jpg";
 import plant1 from "../images/living room /plant1.jpg";
 import plant2 from "../images/living room /plant2.jpg";
@@ -18,19 +16,14 @@ import table from "../images/living room /table.jpg";
 import kitchenFullRoom from "../images/kitchen/kitchen_full_room.jpg";
 import kitchenFullRoomR from "../images/kitchen/kitchen_glasses.jpg";
 import kitchenFullRoomL from "../images/kitchen/kitchen_oven.jpg";
-import oven from "../images/kitchen/oven_1.jpg";
 import knives from "../images/kitchen/knives.jpg";
 import clock from "../images/kitchen/clock.jpg";
 import nespresso from "../images/kitchen/nespresso.jpg";
 import mikser from "../images/kitchen/mikser_1.jpg";
 import dishwasher from "../images/kitchen/dishwaser.jpg";
-import handMixer from "../images/kitchen/hand_mixer.jpeg";
 import micro from "../images/kitchen/micro.jpg";
-import blender from "../images/kitchen/blender.jpeg";
-import airFry from "../images/kitchen/air_fry.jpeg";
 import wineDude from "../images/kitchen/wine_bottle.jpg";
 import bowels from "../images/kitchen/bowels.jpeg";
-import cart from "../images/kitchen/cart.jpeg";
 import ninja from "../images/kitchen/ninja.jpeg";
 import tavnit1 from "../images/kitchen/tavnit1.jpg";
 import tavnit2 from "../images/kitchen/tavnit2.jpg";
@@ -44,10 +37,8 @@ import babyFoodChair from "../images/baby/baby_food_chair.jpg";
 import carChairs from "../images/baby/car_chairs.jpg";
 import babyBed from "../images/baby/baby_bed.jpg";
 import wallDecorations from "../images/baby/wall_decorations.jpg";
-import radiator from "../images/baby/radiator.jpg";
 import carry1 from "../images/baby/carry1.jpg";
 import carry2 from "../images/baby/carry2.jpg";
-import stroller from "../images/baby/stroller.jpg";
 import monitor from "../images/baby/monitor.jpg";
 import bath from "../images/baby/bath.jpeg";
 
@@ -55,13 +46,10 @@ import kidsTheme1 from "../images/kidsRoom/kids_theme1.jpg";
 import kidsTheme2 from "../images/kidsRoom/kids_theme2.jpg";
 import kidsTheme3 from "../images/kidsRoom/kids_theme3.jpg";
 import shelves from "../images/kidsRoom/shelves.jpg";
-import bedChair from "../images/kidsRoom/bed_chair.jpg";
 import lamp from "../images/kidsRoom/lamp.jpg";
 import shida from "../images/kidsRoom/shida.jpg";
 import bed from "../images/kidsRoom/bed.jpeg";
-import konanit from "../images/kidsRoom/konanit.jpeg";
 import bookShelve from "../images/kidsRoom/bookShelve.jpeg";
-import katan from "../images/kidsRoom/Katan.jpeg"
 
 import officeTheme1 from "../images/office/office_theme1.jpg";
 import officeTheme2 from "../images/office/office_theme2.jpg";
@@ -69,7 +57,6 @@ import officeChair from "../images/office/office_chair.jpg";
 import messageBoard from "../images/office/message_board.jpg";
 import magnetBoard from "../images/office/magnet_board.jpeg";
 import printer from "../images/office/printer.jpg";
-import deco from "../images/office/deco.jpg";
 import ep from "../images/office/ep.jpeg"
 import lampO from "../images/office/lamp.jpeg"
 
@@ -88,10 +75,7 @@ import matress from "../images/more/matress.jpg"
 import dresser from "../images/more/dresser.jpg"
 import largeShelves from "../images/more/large_shelves.jpg"
 import livingRoomTable from "../images/more/living_room_table.jpg"
-import whiteChair from "../images/more/white_chair.jpg"
-import foldTable from "../images/more/fold_table.jpg"
 import vacum from "../images/more/vacum.jpeg"
-import dryer from "../images/more/dryier.jpeg"
 import sappa from "../images/more/sappa.jpeg"
 import washing from "../images/more/washing.jpeg"
 import fossa from "../images/more/fossa.jpg"
