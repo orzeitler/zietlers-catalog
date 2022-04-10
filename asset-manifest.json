@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zietlers-catalog/static/css/main.6d75c23f.css",
-    "main.js": "/zietlers-catalog/static/js/main.49d339b5.js",
+    "main.js": "/zietlers-catalog/static/js/main.5473babd.js",
     "static/js/787.f11058fc.chunk.js": "/zietlers-catalog/static/js/787.f11058fc.chunk.js",
     "static/media/videio.mp4": "/zietlers-catalog/static/media/videio.267316b9f32f9f5124be.mp4",
     "static/media/kids_theme2.jpg": "/zietlers-catalog/static/media/kids_theme2.abd0df169e561485a55a.jpg",
@@ -46,7 +46,6 @@
     "static/media/lamp.jpg": "/zietlers-catalog/static/media/lamp.b48fdbaffc9e8209bbf9.jpg",
     "static/media/kitchen_full_room.jpg": "/zietlers-catalog/static/media/kitchen_full_room.6d8c6810cb4378ef70c0.jpg",
     "static/media/kitchen_glasses.jpg": "/zietlers-catalog/static/media/kitchen_glasses.846b6e2ab93d23ff7845.jpg",
-    "static/media/clock.jpg": "/zietlers-catalog/static/media/clock.ceccb72cf372eae542e9.jpg",
     "static/media/large_shelves.jpg": "/zietlers-catalog/static/media/large_shelves.7559de719e6f6dc4be8f.jpg",
     "static/media/matress.jpg": "/zietlers-catalog/static/media/matress.68fa41fa8e7c3c294fc1.jpg",
     "static/media/living_room_table.jpg": "/zietlers-catalog/static/media/living_room_table.8a16307e4d762b703f33.jpg",
@@ -60,6 +59,7 @@
     "static/media/canisters.jpg": "/zietlers-catalog/static/media/canisters.b707adcb7c0ade3a875d.jpg",
     "static/media/pic4.jpg": "/zietlers-catalog/static/media/pic4.caf36c9f49a63d0e5940.jpg",
     "static/media/curtain.png": "/zietlers-catalog/static/media/curtain.050d809eb06bbe425472.png",
+    "static/media/Katan.jpeg": "/zietlers-catalog/static/media/Katan.ce1f12064fc8fbf39430.jpeg",
     "static/media/chair.jpeg": "/zietlers-catalog/static/media/chair.015b9392aa5428300e41.jpeg",
     "static/media/baskets.jpeg": "/zietlers-catalog/static/media/baskets.44c2fede12a6a39f4979.jpeg",
     "static/media/tavnit2.jpg": "/zietlers-catalog/static/media/tavnit2.2466d7e7057cb3ca8282.jpg",
@@ -83,11 +83,11 @@
     "static/media/vacum.jpeg": "/zietlers-catalog/static/media/vacum.4660a4ba291fd1b47f37.jpeg",
     "index.html": "/zietlers-catalog/index.html",
     "main.6d75c23f.css.map": "/zietlers-catalog/static/css/main.6d75c23f.css.map",
-    "main.49d339b5.js.map": "/zietlers-catalog/static/js/main.49d339b5.js.map",
+    "main.5473babd.js.map": "/zietlers-catalog/static/js/main.5473babd.js.map",
     "787.f11058fc.chunk.js.map": "/zietlers-catalog/static/js/787.f11058fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d75c23f.css",
-    "static/js/main.49d339b5.js"
+    "static/js/main.5473babd.js"
   ]
 }
