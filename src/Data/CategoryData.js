@@ -14,9 +14,16 @@ import mikser from "../images/kitchen/mikser_1.jpg";
 import oven_1 from "../images/kitchen/oven_1.jpg"
 import dishwasher from "../images/kitchen/dishwaser.jpg";
 import micro from "../images/kitchen/micro.jpg";
-import tavnit1 from "../images/kitchen/tavnit1.jpg";
-import tavnit3 from "../images/kitchen/tavnit3.jpg";
-import canisters from "../images/kitchen/canisters.jpg";
+import bigPot from "../images/kitchen/bigpot.jpeg";
+import potAndPans from "../images/kitchen/pots.jpeg";
+import fridge from "../images/kitchen/fridge.jpeg";
+import korning from "../images/kitchen/korning.jpeg";
+import haimKohen from "../images/kitchen/haimKohen.jpeg";
+
+
+// import tavnit1 from "../images/kitchen/tavnit1.jpg";
+// import tavnit3 from "../images/kitchen/tavnit3.jpg";
+// import canisters from "../images/kitchen/canisters.jpg";
 
 import babyTheme from "../images/baby/baby_theme.jpg";
 import activityMatres from "../images/baby/activity_matress.jpg";
@@ -39,11 +46,17 @@ import bed from "../images/kidsRoom/bed.jpeg";
 
 import messageBoard from "../images/office/message_board.jpg";
 
-import baskets from "../images/design/baskets.jpeg"
+import baskets from "../images/design/baskets.jpeg";
+import plants from "../images/design/plants.jpeg";
+import trees from "../images/design/trees.jpeg";
+import lamp1 from "../images/design/lamp.png";
 
 import potsPans from "../images/outDoors/pots_pans.jpg";
+import matressOut from "../images/outDoors/matress-out.jpeg";
+import hamock from "../images/outDoors/hamock.jpeg";
+import pool from "../images/outDoors/pool.jpeg";
 
-import matress from "../images/more/matress.jpg"
+import matress from "../images/more/matress.jpeg"
 import largeShelves from "../images/more/large_shelves.jpg"
 import livingRoomTable from "../images/more/living_room_table.jpg"
 import dryier from "../images/more/dryier.jpeg"
@@ -81,18 +94,16 @@ export const CategoryData = [
         items: [
             {id: '153', name: 'מיקסר kmix', description: 'מיקסר kMix Picasso מקצועי KENWOOD דגם KMX750WH לבן. נרכש לפני שנה ונשמר כמיקסר ללא גלוטן' , price: 800, image: mikser, isSold: false},
             {id: '155', name: 'מיקרו', description: 'מיקרוגל samsung כסוף' , price: 200, image: micro, isSold: false},
-            {id: '157', name: 'מדיח כלים', description: 'מדיח כלים bosch נקנה ב2018'  , price: 1100, image: dishwasher, isSold: false, isAvailableInJune: true},
-            {id: '157', name: 'תנור', description: 'תנוח bosch ? נקנה ב2018'  , price: 500, image: oven_1, isSold: false, isAvailableInJune: true},
-            {id: '158', name: 'סט קורנינג', description: 'סט של צלחת גדולה צלחת בנונית וקערה 8 - ניתן לקנות חלק', price: 300, image: dishwasher, isSold: false, isAvailableInJune: false},
-            {id: '158', name: 'צלחות קטנות קורנינג', description: 'צלחות קורנינג קטנות עם כלבלבים', price: 200, image: dishwasher, isSold: false, isAvailableInJune: false},
-            {id: '159', name: 'סיר אינדוקציה ענק', description: 'סיר אינדוקציה של חברת - בקוטר -', price: 100, image: dishwasher, isSold: false, isAvailableInJune: true},
-            {id: '1599', name: 'מחבתות וסירים', description: 'מחבתות וסירי אינדוקציה מחיר לפריט', price: 30, image: dishwasher, isSold: false, isAvailableInJune: false},
-            {id: '1599', name: 'סט מתכונים', description: 'סט מתכונים של חיים כהן', price: 50, image: dishwasher, isSold: false, isAvailableInJune: true},
-            {id: '1599', name: 'פריטי מטבח', description: 'כל פריט ב10', price: 10, image: dishwasher, isSold: false, isAvailableInJune: false},
-            {id: '1599', name: 'עוד פריטי מטבח', description: 'כל פריט ב5 שקל', price: 5, image: dishwasher, isSold: false, isAvailableInJune: false},
-            {id: '1513', name: 'תבנית אפייה', description: ' תבנית אפייה לעוגה מחולק לתאים', price: 65, image: tavnit1, isSold: false, link: 'https://shop.super-pharm.co.il/home/kitchen/cooking-and-baking/baking-trays/%D7%AA%D7%91%D7%A0%D7%99%D7%AA-%D7%90%D7%A4%D7%99%D7%99%D7%94-%D7%9E%D7%97%D7%95%D7%9C%D7%A7%D7%AA-%D7%9C-18-%D7%91%D7%A8%D7%90%D7%95%D7%A0%D7%99%D7%96/p/mp-00045230'},
-            {id: '1513', name: 'תבנית אפייה', description: ' תבניות אפייה מסיליקון המחיר לשתיהן', price: 40, image: tavnit3, isSold: false},
-            {id: '1513', name: 'מיכלי אחסון וקום', description: '2 מכלי אחסון בוקום ', price: 40, image: canisters, isSold: false, link: 'https://www.uniqook.co.il/shop/%D7%A1%D7%98-2-%D7%9E%D7%99%D7%9B%D7%9C%D7%99-pop-%D7%A8%D7%91%D7%95%D7%A2-%D7%A7%D7%98%D7%9F-%D7%A7%D7%A6%D7%A8-1-%D7%9C%D7%99%D7%98%D7%A8/'}
+            {id: '157', name: 'מדיח כלים', description: 'מדיח כלים bosch נקנה ב2018'  , price: 1100, image: dishwasher, isSold: false, isAvailableInJune: false},
+            {id: '157', name: 'תנור', description: 'תנוח AEG ,פירוליטי, נקנה ב2018'  , price: 500, image: oven_1, isSold: false, isAvailableInJune: false},
+            {id: '158', name: 'סט קורנינג', description: 'סט של צלחת גדולה צלחת בנונית וקערה 24 חלקים ', price: 300, image: korning, isSold: false, isAvailableInJune: false},
+            {id: '159', name: 'סיר אינדוקציה ענק', description: 'סיר אינדוקציה של חברת legumi', price: 100, image: bigPot, isSold: false, isAvailableInJune: false},
+            {id: '1599', name: 'מחבתות וסירים', description: 'מחבתות וסירי אינדוקציה מחיר לפריט', price: 30, image: potAndPans, isSold: false, isAvailableInJune: false},
+            {id: '1599', name: 'סט מתכונים', description: 'סט מתכונים של חיים כהן', price: 50, image: haimKohen, isSold: false, isAvailableInJune: false},
+            {id: '1599', name: 'מקרר', description: 'מקרר מכני חברת אפולו', price: 200, image: fridge, isSold: false, isAvailableInJune: true},
+            // {id: '1513', name: 'תבנית אפייה', description: ' תבנית אפייה לעוגה מחולק לתאים', price: 65, image: tavnit1, isSold: false, link: 'https://shop.super-pharm.co.il/home/kitchen/cooking-and-baking/baking-trays/%D7%AA%D7%91%D7%A0%D7%99%D7%AA-%D7%90%D7%A4%D7%99%D7%99%D7%94-%D7%9E%D7%97%D7%95%D7%9C%D7%A7%D7%AA-%D7%9C-18-%D7%91%D7%A8%D7%90%D7%95%D7%A0%D7%99%D7%96/p/mp-00045230'},
+            // {id: '1513', name: 'תבנית אפייה', description: ' תבניות אפייה מסיליקון המחיר לשתיהן', price: 40, image: tavnit3, isSold: false},
+            // {id: '1513', name: 'מיכלי אחסון וקום', description: '2 מכלי אחסון בוקום ', price: 40, image: canisters, isSold: false, link: 'https://www.uniqook.co.il/shop/%D7%A1%D7%98-2-%D7%9E%D7%99%D7%9B%D7%9C%D7%99-pop-%D7%A8%D7%91%D7%95%D7%A2-%D7%A7%D7%98%D7%9F-%D7%A7%D7%A6%D7%A8-1-%D7%9C%D7%99%D7%98%D7%A8/'}
         ]
     },
     {
@@ -135,10 +146,10 @@ export const CategoryData = [
         items: [
             {id: '9', name: ' ״אוזן הפיל״', description: 'עציץ בינוני', price: 80, image: plant2, isSold: false, isAvailableInJune: false },
             {id: '102', name: 'סלסלות', description: '2 סלסלות קש ניתן לקנות גם חלק', price: 100, image: baskets, isSold: false, isAvailableInJune: false },
-            {id: '102', name: 'מנורה', description: 'מנורת שולחן עבודה', price: 50, image: baskets, isSold: false, isAvailableInJune: false },
+            {id: '102', name: 'מנורה', description: 'מנורת שולחן עבודה', price: 50, image: lamp1, isSold: false, isAvailableInJune: false },
             {id: '34', name: 'לוח שעם', description: 'לוח שעם, האייל כלול' , price: 20, image: messageBoard, isSold: false, isAvailableInJune: false },
-            {id: '34', name: 'עציצים', description: 'כל מיני סוגים בעל מיני גדלים' , price: 20, image: messageBoard, isSold: false, isAvailableInJune: false },
-            {id: '34', name: 'עצי פרי', description: 'אבוקדו לימון ורימון - בני שנתיים, גדלים בעציצים' , price: 50, image: messageBoard, isSold: false, isAvailableInJune: false },
+            {id: '34', name: 'עציצים', description: 'כל מיני סוגים בעל מיני גדלים' , price: 20, image: plants, isSold: false, isAvailableInJune: false },
+            {id: '34', name: 'עצי פרי', description: 'אבוקדו לימון ורימון - בני שנתיים, גדלים בעציצים' , price: 50, image: trees, isSold: false, isAvailableInJune: false },
         ]
     },
     {
@@ -146,10 +157,10 @@ export const CategoryData = [
         categoryDescription: 'קאמפיניג עד אופניים',
         roomPictures: [],
         items: [
-            {id: '40', name: 'מזרוני טיולים', description: 'מזרונים אישיים' , price: 20, image: potsPans, isSold: true, isAvailableInJune: false},
+            {id: '40', name: 'מזרוני טיולים', description: 'מזרונים אישיים' , price: 20, image: matressOut, isSold: true, isAvailableInJune: false},
             {id: '41', name: 'פויקה ומחבתות', description: 'פוייקה 4, שתי מחבתות למדורה, פויקה קטנטן. המחיר להכל ניתן לקנות חלק' , price: 250, image: potsPans, isSold: true, isAvailableInJune: false },
-            {id: '42', name: 'בריכה מתקפלת', description: 'בריכת שכשוך עם גגון' , price: 50, image: potsPans, isSold: false, isAvailableInJune: false },
-            {id: '42', name: 'ערסלים', description: '2 ערסלים' , price: 20, image: potsPans, isSold: false, isAvailableInJune: false },
+            {id: '42', name: 'בריכה מתקפלת', description: 'בריכת שכשוך עם גגון' , price: 50, image: pool, isSold: false, isAvailableInJune: false },
+            {id: '42', name: 'ערסלים', description: '2 ערסלים' , price: 20, image: hamock, isSold: false, isAvailableInJune: false },
         ]
     },
     {
