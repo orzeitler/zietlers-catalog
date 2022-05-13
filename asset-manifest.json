@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zietlers-catalog/static/css/main.6d75c23f.css",
-    "main.js": "/zietlers-catalog/static/js/main.9f939edc.js",
+    "main.js": "/zietlers-catalog/static/js/main.ec02eae3.js",
     "static/js/787.f11058fc.chunk.js": "/zietlers-catalog/static/js/787.f11058fc.chunk.js",
     "static/media/videio.mp4": "/zietlers-catalog/static/media/videio.267316b9f32f9f5124be.mp4",
     "static/media/kids_theme2.jpg": "/zietlers-catalog/static/media/kids_theme2.abd0df169e561485a55a.jpg",
@@ -47,6 +47,7 @@
     "static/media/pots.jpeg": "/zietlers-catalog/static/media/pots.918a6264fa0f2b5e01d7.jpeg",
     "static/media/konanit.jpeg": "/zietlers-catalog/static/media/konanit.4abe68524a8ca6a0e706.jpeg",
     "static/media/pool.jpeg": "/zietlers-catalog/static/media/pool.a6f95a3c2b5eec46ef6b.jpeg",
+    "static/media/tv.jpeg": "/zietlers-catalog/static/media/tv.fbabb991808dffbd59e1.jpeg",
     "static/media/sofa.jpeg": "/zietlers-catalog/static/media/sofa.aee48351b9529b7710c4.jpeg",
     "static/media/glass_cleaner.jpg": "/zietlers-catalog/static/media/glass_cleaner.2b9fdfb542e7527ec4b9.jpg",
     "static/media/matress-out.jpeg": "/zietlers-catalog/static/media/matress-out.ff4fd4da830d83909078.jpeg",
@@ -60,11 +61,11 @@
     "static/media/matress.jpeg": "/zietlers-catalog/static/media/matress.5d999c5148eb3a15daf8.jpeg",
     "index.html": "/zietlers-catalog/index.html",
     "main.6d75c23f.css.map": "/zietlers-catalog/static/css/main.6d75c23f.css.map",
-    "main.9f939edc.js.map": "/zietlers-catalog/static/js/main.9f939edc.js.map",
+    "main.ec02eae3.js.map": "/zietlers-catalog/static/js/main.ec02eae3.js.map",
     "787.f11058fc.chunk.js.map": "/zietlers-catalog/static/js/787.f11058fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d75c23f.css",
-    "static/js/main.9f939edc.js"
+    "static/js/main.ec02eae3.js"
   ]
 }
