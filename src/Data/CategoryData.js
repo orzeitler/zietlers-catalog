@@ -77,10 +77,10 @@ export const CategoryData = [
             {imageSrc: livingRoom3},
         ],
         items: [
-            {id: '4', name: 'מראה נפתחת', description: 'מֿראה נפתחת של Nooshka במצב מצויין, נקנתה לפני שנה', price: 1800, image: mirror, isSold: false, isAvailableInJune: false},
             {id: '13', name: 'שולחן סלון', description: 'שולחן סלון kaza, שני חלקים', price: 800, image: table, isSold: false, isAvailableInJune: false },
-            {id: '2', name: 'וילונות ומוטות', description: 'וילונות עם מוטות ל3 חלונות ברוחבים משתנים, המחיר עבור סט לחלון' , price: 30, image: curtain, isSold: false, isAvailableInJune: false },
-            {id: '12', name: 'סט ספות', description: 'סט ספות 2 חלקים מאיאקה - ניתן להחליף ריפוד', price: 400, image: sofa, isSold: false, isAvailableInJune: true },
+            {id: '2', name: 'וילונות ומוטות', description: 'וילונות עם מוטות ברוחבים משתנים, המחיר עבור סט לחלון' , price: 30, image: curtain, isSold: false, isAvailableInJune: false },
+            {id: '12', name: 'סט ספות', description: 'סט ספות 2 חלקים מאיאקה - ניתן להחליף ריפוד', price: 400, image: sofa, isSold: false, isAvailableInJune: false },
+            {id: '4', name: 'מראה נפתחת', description: 'מֿראה נפתחת של Nooshka במצב מצויין, נקנתה לפני שנה', price: 1700, image: mirror, isSold: false, isAvailableInJune: false},
         ]
     },
     {
@@ -94,10 +94,10 @@ export const CategoryData = [
         items: [
             {id: '153', name: 'מיקסר kmix', description: 'מיקסר kMix Picasso מקצועי KENWOOD דגם KMX750WH לבן. נרכש לפני שנה ונשמר כמיקסר ללא גלוטן' , price: 800, image: mikser, isSold: false},
             {id: '155', name: 'מיקרו', description: 'מיקרוגל samsung כסוף' , price: 200, image: micro, isSold: false},
-            {id: '157', name: 'מדיח כלים', description: 'מדיח כלים bosch נקנה ב2018'  , price: 1100, image: dishwasher, isSold: false, isAvailableInJune: false},
+            {id: '157', name: 'מדיח כלים', description: 'מדיח כלים bosch נקנה ב2018'  , price: 800, image: dishwasher, isSold: false, isAvailableInJune: false},
             {id: '157', name: 'תנור', description: 'תנוח AEG ,פירוליטי, נקנה ב2018'  , price: 500, image: oven_1, isSold: false, isAvailableInJune: false},
             {id: '158', name: 'סט קורנינג', description: 'סט של צלחת גדולה צלחת בנונית וקערה 24 חלקים ', price: 300, image: korning, isSold: false, isAvailableInJune: false},
-            {id: '159', name: 'סיר אינדוקציה ענק', description: 'סיר אינדוקציה של חברת legumi', price: 100, image: bigPot, isSold: false, isAvailableInJune: false},
+            {id: '159', name: 'סיר אינדוקציה ענק', description: 'סיר אינדוקציה 36סמ של חברת Laguiole', price: 100, image: bigPot, isSold: false, isAvailableInJune: false},
             {id: '1599', name: 'מחבתות וסירים', description: 'מחבתות וסירי אינדוקציה מחיר לפריט', price: 30, image: potAndPans, isSold: false, isAvailableInJune: false},
             {id: '1599', name: 'סט מתכונים', description: 'סט מתכונים של חיים כהן', price: 50, image: haimKohen, isSold: false, isAvailableInJune: false},
             {id: '1599', name: 'מקרר', description: 'מקרר מכני חברת אפולו', price: 200, image: fridge, isSold: false, isAvailableInJune: true},
@@ -134,7 +134,7 @@ export const CategoryData = [
         items: [
             {id: '29', name: '5 מדפים מרובעים', description: 'מדפים eket מאיקאה', price: 250, image: shelves, isSold: false, isAvailableInJune: false },
             {id: '31', name: 'מנורת קריאה', description: 'מנורת דובי פנדה', price: 50, image: lamp, isSold: true, isAvailableInJune: false },
-            {id: '31', name: 'כוורת איקיאה', description: 'כוורת דגם - לבנה', price: 200, image: kavaret, isSold: false, isAvailableInJune: false },
+            {id: '31', name: 'כוורת איקיאה', description: 'כוורת דגם kallax לבנה', price: 200, image: kavaret, isSold: false, isAvailableInJune: false },
             {id: '32', name: 'שידה להחתלה', description: 'שידה למסירה', price: 0, image: shida, isSold: false, isAvailableInJune: false },
             {id: '321', name: 'מיטת ילדים ', description: 'מיטת מעבר, כולל מעקה ומזרון', price: 100, image: bed, isSold: false, isAvailableInJune: false },
         ]
@@ -148,7 +148,7 @@ export const CategoryData = [
             {id: '102', name: 'סלסלות', description: '2 סלסלות קש ניתן לקנות גם חלק', price: 100, image: baskets, isSold: false, isAvailableInJune: false },
             {id: '102', name: 'מנורה', description: 'מנורת שולחן עבודה', price: 50, image: lamp1, isSold: false, isAvailableInJune: false },
             {id: '34', name: 'לוח שעם', description: 'לוח שעם, האייל כלול' , price: 20, image: messageBoard, isSold: false, isAvailableInJune: false },
-            {id: '34', name: 'עציצים', description: 'כל מיני סוגים בעל מיני גדלים' , price: 20, image: plants, isSold: false, isAvailableInJune: false },
+            {id: '34', name: 'עציצים', description: 'כל מיני סוגים בכל מיני גדלים' , price: 20, image: plants, isSold: false, isAvailableInJune: false },
             {id: '34', name: 'עצי פרי', description: 'אבוקדו לימון ורימון - בני שנתיים, גדלים בעציצים' , price: 50, image: trees, isSold: false, isAvailableInJune: false },
         ]
     },
@@ -170,10 +170,10 @@ export const CategoryData = [
         items: [
             {id: '43', name: 'מזרון זוגי גדול', description: 'מזרון של דוקטור גב תלת שכבתי triple system גודל: 1.60 על 1.90', price: 2500, image: matress, isSold: false, isAvailableInJune: false, link: 'https://www.dr-gav.co.il/sleep/mattresses/twin-mattresses' },
             {id: '45', name: 'סט ספריות', description: 'סט ספריות דגם billy ניתן לקנות גם חלקים' , price: 1000, image: largeShelves, isSold: false, isAvailableInJune: false, link: 'https://www.ikea.com/il/he/p/billy-bookcase-white-stained-oak-veneer-90404209/#content' },
-            {id: '46', name: 'שולחן סלון', description: 'שולחן סלון שלושה חלקים של שומרת הזורע' , price: 1000, image: livingRoomTable, isSold: false, isAvailableInJune: false },
-            {id: '46', name: 'מייבש', description: 'מייבש של חברת - נפח -' , price: 500, image: dryier, isSold: false, isAvailableInJune: false },
-            {id: '502', name: 'מנקה חלונות', description: 'מנקה חלונות חשמלי של חברת jimmy חדש לגמרי' , price: 170, image: glassCleaner, isSold: false, link: 'https://www.banggood.com/JIMMY-VW302-Cordless-Window-Glass-Vacuum-Cleaner-with-Squeegee,Spray-Bottle-p-1536802.html' },
-            {id: '504', name: 'מכשיר עיסוי', description: 'מכשיר עיסוי quad action של דוקטור גב' , price: 350, image: massager, isSold: false, isAvailableInJune: false, link: 'https://www.biogaya.co.il/home-appliance/quad-action-dr-gav?gclid=Cj0KCQjw_4-SBhCgARIsAAlegrWPCE2MLQrBRbhSBreOFqsSRyhOdxKPZkuvpt3iSHoQg-1cXfuWDUsaAnLsEALw_wcB' },
+            {id: '46', name: 'שולחן סלון', description: 'שולחן סלון שלושה חלקים של שומרת הזורע' , price: 500, image: livingRoomTable, isSold: false, isAvailableInJune: false },
+            {id: '46', name: 'מייבש', description: 'מייבש של חברת - נפח -' , price: 500, image: dryier, isSold: false, isAvailableInJune: false, link: "https://www.prec.co.il/product/%D7%9E%D7%99%D7%99%D7%91%D7%A9-%D7%9B%D7%91%D7%99%D7%A1%D7%94-7-%D7%A7%D7%92--electrolux-%D7%A7%D7%95%D7%A0%D7%93%D7%A0%D7%A1%D7%95%D7%A8-%D7%93%D7%9C%D7%AA-%D7%A9%D7%A7%D7%95%D7%A4%D7%94-%D7%93%D7%92%D7%9D-edp-2074g" },
+            {id: '502', name: 'מנקה חלונות', description: 'מנקה חלונות חשמלי של חברת jimmy חדש לגמרי' , price: 100, image: glassCleaner, isSold: false, link: 'https://www.banggood.com/JIMMY-VW302-Cordless-Window-Glass-Vacuum-Cleaner-with-Squeegee,Spray-Bottle-p-1536802.html' },
+            {id: '504', name: 'מכשיר עיסוי', description: 'מכשיר עיסוי quad action של דוקטור גב' , price: 300, image: massager, isSold: false, isAvailableInJune: false, link: 'https://www.biogaya.co.il/home-appliance/quad-action-dr-gav?gclid=Cj0KCQjw_4-SBhCgARIsAAlegrWPCE2MLQrBRbhSBreOFqsSRyhOdxKPZkuvpt3iSHoQg-1cXfuWDUsaAnLsEALw_wcB' },
         ]
     },
     {
