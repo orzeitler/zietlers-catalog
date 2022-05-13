@@ -60,6 +60,7 @@ import matress from "../images/more/matress.jpeg"
 import largeShelves from "../images/more/large_shelves.jpg"
 import livingRoomTable from "../images/more/living_room_table.jpg"
 import dryier from "../images/more/dryier.jpeg"
+import tv from "../images/more/tv.jpeg"
 
 import glassCleaner from "../images/more/glass_cleaner.jpg"
 import massager from "../images/more/massager.jpg"
@@ -173,6 +174,7 @@ export const CategoryData = [
             {id: '46', name: 'שולחן סלון', description: 'שולחן סלון שלושה חלקים של שומרת הזורע' , price: 500, image: livingRoomTable, isSold: false, isAvailableInJune: false },
             {id: '46', name: 'מייבש', description: 'מייבש של חברת - נפח -' , price: 500, image: dryier, isSold: false, isAvailableInJune: false, link: "https://www.prec.co.il/product/%D7%9E%D7%99%D7%99%D7%91%D7%A9-%D7%9B%D7%91%D7%99%D7%A1%D7%94-7-%D7%A7%D7%92--electrolux-%D7%A7%D7%95%D7%A0%D7%93%D7%A0%D7%A1%D7%95%D7%A8-%D7%93%D7%9C%D7%AA-%D7%A9%D7%A7%D7%95%D7%A4%D7%94-%D7%93%D7%92%D7%9D-edp-2074g" },
             {id: '502', name: 'מנקה חלונות', description: 'מנקה חלונות חשמלי של חברת jimmy חדש לגמרי' , price: 100, image: glassCleaner, isSold: false, link: 'https://www.banggood.com/JIMMY-VW302-Cordless-Window-Glass-Vacuum-Cleaner-with-Squeegee,Spray-Bottle-p-1536802.html' },
+            {id: '502', name: 'טלויזה', description: 'מסך טלוויזת סמסונג - פשוט ולא חכם' , price: 150, image: tv, isSold: false },
             {id: '504', name: 'מכשיר עיסוי', description: 'מכשיר עיסוי quad action של דוקטור גב' , price: 300, image: massager, isSold: false, isAvailableInJune: false, link: 'https://www.biogaya.co.il/home-appliance/quad-action-dr-gav?gclid=Cj0KCQjw_4-SBhCgARIsAAlegrWPCE2MLQrBRbhSBreOFqsSRyhOdxKPZkuvpt3iSHoQg-1cXfuWDUsaAnLsEALw_wcB' },
         ]
     },
