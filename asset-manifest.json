@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zietlers-catalog/static/css/main.6d75c23f.css",
-    "main.js": "/zietlers-catalog/static/js/main.77e3b4fc.js",
+    "main.js": "/zietlers-catalog/static/js/main.083485ba.js",
     "static/js/787.f11058fc.chunk.js": "/zietlers-catalog/static/js/787.f11058fc.chunk.js",
     "static/media/videio.mp4": "/zietlers-catalog/static/media/videio.267316b9f32f9f5124be.mp4",
     "static/media/kids_theme2.jpg": "/zietlers-catalog/static/media/kids_theme2.abd0df169e561485a55a.jpg",
@@ -51,6 +51,7 @@
     "static/media/sofa.jpeg": "/zietlers-catalog/static/media/sofa.aee48351b9529b7710c4.jpeg",
     "static/media/glass_cleaner.jpg": "/zietlers-catalog/static/media/glass_cleaner.2b9fdfb542e7527ec4b9.jpg",
     "static/media/matress-out.jpeg": "/zietlers-catalog/static/media/matress-out.ff4fd4da830d83909078.jpeg",
+    "static/media/tavnit1.jpg": "/zietlers-catalog/static/media/tavnit1.33d5369049e55db97005.jpg",
     "static/media/bigpot.jpeg": "/zietlers-catalog/static/media/bigpot.817bb4c6b0169be0a13a.jpeg",
     "static/media/dryier.jpeg": "/zietlers-catalog/static/media/dryier.1846541b3e8e65124238.jpeg",
     "static/media/fridge.jpeg": "/zietlers-catalog/static/media/fridge.b803e4f35d8767c63f3c.jpeg",
@@ -61,11 +62,11 @@
     "static/media/matress.jpeg": "/zietlers-catalog/static/media/matress.5d999c5148eb3a15daf8.jpeg",
     "index.html": "/zietlers-catalog/index.html",
     "main.6d75c23f.css.map": "/zietlers-catalog/static/css/main.6d75c23f.css.map",
-    "main.77e3b4fc.js.map": "/zietlers-catalog/static/js/main.77e3b4fc.js.map",
+    "main.083485ba.js.map": "/zietlers-catalog/static/js/main.083485ba.js.map",
     "787.f11058fc.chunk.js.map": "/zietlers-catalog/static/js/787.f11058fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d75c23f.css",
-    "static/js/main.77e3b4fc.js"
+    "static/js/main.083485ba.js"
   ]
 }
