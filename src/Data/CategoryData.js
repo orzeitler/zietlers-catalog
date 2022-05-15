@@ -158,7 +158,7 @@ export const CategoryData = [
         categoryDescription: 'קאמפיניג עד אופניים',
         roomPictures: [],
         items: [
-            {id: '40', name: 'מזרוני טיולים', description: 'מזרונים אישיים' , price: 20, image: matressOut, isSold: true, isAvailableInJune: false},
+            {id: '40', name: 'מזרוני טיולים', description: 'מזרונים אישיים' , price: 20, image: matressOut, isSold: false, isAvailableInJune: false},
             {id: '41', name: 'פויקה ומחבתות', description: 'פוייקה 4, שתי מחבתות למדורה, פויקה קטנטן. המחיר להכל ניתן לקנות חלק' , price: 250, image: potsPans, isSold: true, isAvailableInJune: false },
             {id: '42', name: 'בריכה מתקפלת', description: 'בריכת שכשוך עם גגון' , price: 50, image: pool, isSold: false, isAvailableInJune: false },
             {id: '42', name: 'ערסלים', description: '2 ערסלים' , price: 20, image: hamock, isSold: false, isAvailableInJune: false },
