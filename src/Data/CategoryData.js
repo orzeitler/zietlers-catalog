@@ -181,7 +181,7 @@ export const CategoryData = [
             // {id: '502', name: 'טלויזה', description: 'מסך טלוויזת סמסונג - פשוט ולא חכם' , price: 150, image: tv, isSold: true },
             {id: '504', name: 'מכשיר עיסוי', description: 'מכשיר עיסוי quad action של דוקטור גב' , price: 200, image: massager, isSold: false, isAvailableInJune: false, link: 'https://www.biogaya.co.il/home-appliance/quad-action-dr-gav?gclid=Cj0KCQjw_4-SBhCgARIsAAlegrWPCE2MLQrBRbhSBreOFqsSRyhOdxKPZkuvpt3iSHoQg-1cXfuWDUsaAnLsEALw_wcB' },
             {id: '504', name: 'מגהץ קיטור', description: 'מגהץ קיטור אנכי Tefal דגם: DT8150' , price: 130, image: megahetz, isSold: false, isAvailableInJune: false, link: 'https://www.biogaya.co.il/home-appliance/quad-action-dr-gav?gclid=Cj0KCQjw_4-SBhCgARIsAAlegrWPCE2MLQrBRbhSBreOFqsSRyhOdxKPZkuvpt3iSHoQg-1cXfuWDUsaAnLsEALw_wcB' },
-            {id: '504', name: 'מחליק שיער', description: 'מחליק שיער פשוט' , price: 300, image: mahilk, isSold: false, isAvailableInJune: false, link: 'https://www.biogaya.co.il/home-appliance/quad-action-dr-gav?gclid=Cj0KCQjw_4-SBhCgARIsAAlegrWPCE2MLQrBRbhSBreOFqsSRyhOdxKPZkuvpt3iSHoQg-1cXfuWDUsaAnLsEALw_wcB' },
+            {id: '504', name: 'מחליק שיער', description: 'מחליק שיער פשוט' , price: 30, image: mahilk, isSold: false, isAvailableInJune: false, link: 'https://www.biogaya.co.il/home-appliance/quad-action-dr-gav?gclid=Cj0KCQjw_4-SBhCgARIsAAlegrWPCE2MLQrBRbhSBreOFqsSRyhOdxKPZkuvpt3iSHoQg-1cXfuWDUsaAnLsEALw_wcB' },
         ]
     },
     // {
